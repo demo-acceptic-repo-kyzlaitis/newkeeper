@@ -1,0 +1,1718 @@
+html {
+    height: 100%;
+}
+::-webkit-file-upload-button { cursor:pointer; }
+body.smf a, body.smf a:active, body.smf a:visited {
+    color: #503F3F;
+    text-decoration: none;
+}
+
+body .popup_news span {
+    color: #000;
+}
+body .popup_news a {
+	color: #056AC7 !important;
+}
+@font-face { font-family: "Rubl Sign"; src: url("http://www.artlebedev.ru/;-)/ruble.eot"); }
+    span.rur { font-family: "Rubl Sign"; text-transform: uppercase;}    
+    span.rur span { position: absolute; overflow: hidden; width: .45em; height: 1em; margin: .1ex 0 0 -.55em; }
+    span.rur span:before { content: '\2013'; }
+
+div.modal {
+    width: auto;
+}
+/* ----- news images ------*/
+
+#main_section.request .form {
+    float: none;
+    margin: 49px auto 0;
+    max-width: 570px;
+}
+#showMore {
+    float: left;
+}
+#main_section.request .form label {
+    font-weight: normal;
+}
+#main_section.request .checkboxes {
+    margin-top: 16px;
+    height: 30px;
+}
+.checkboxes.checkbox_news p {
+	margin-left: 45px;
+}
+#main_section.request .buttom_registration {
+    margin: 10px 0 0;
+}
+#main_section .image_news.you_news .inner {
+	/*border:3px solid #00cccc;*/
+}
+#main_section  .add_infos {
+	background: none;
+}	
+div.errorMessage {
+	color: #F00;
+	margin-top: 5px;
+}
+#main_section .shadow_and_news_icon .two_news_icon {
+	margin:0 auto;
+	width:100px;
+	padding-left:25px;
+}
+
+.inner-article, .inner-article > div {
+    color: #000;
+}
+.application_accepted {
+	width:300px;
+	height:140px;
+	margin:0 auto;
+	background:url(../images/pencil_big.png) center top no-repeat;
+	margin-top:82px;
+}
+
+.application_accepted p {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	text-align:center;
+	line-height:1.2;
+	padding-top:105px;
+}
+.contacts, .empty {
+	margin: 0 20%;
+	display: block;
+	padding-top: 20px;
+}
+.contacts .contact_logo{
+	display:block;
+	width:228px;
+	height:163px;
+	margin:0 auto;
+	display: none;
+}
+.contacts a img {
+	width:228px;
+	height:163px;
+}
+
+.contacts p, .empty p {
+	font-size:14px;
+	line-height:1.3;
+}
+
+.preview {
+    display: block;
+}
+.image_news .description_news .desc_ava {
+    float: left;
+    margin: 16px 10px 0 18px;
+    padding: 0;
+    border: 2px solid #fff;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 1px 1px -1px #000000;
+}
+.image_news .description_news.bloger {
+    min-height: 90px;
+}
+.image_news .description_news a {
+	display:block;
+}
+.image_news .description_news a:hover  img{
+	 -moz-box-shadow: 0px 0px 4px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,1);  
+    box-shadow: 0px 0px 4px rgba(255,255,255,1);
+}	
+.image_news.you_news .description_news span {
+    padding-bottom: 14px;
+}
+#main_section .name_blogger {
+	background: rgba(192,192,192, 0.1);
+}
+
+.name_blogger p {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	text-align:center;
+	line-height:1.2;
+	padding:0 40px;
+     top: 29px !important;
+}
+
+.name_blogger .check  p {
+	padding:0;
+	margin:0;
+	line-height:0.8;
+	font-size:15px;
+}
+
+.name_blogger .add_news {
+	position:absolute;
+	top:0;
+	left:0;
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+.name_blogger .add_news span {
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: url(../images/icons_profile.png) top right no-repeat;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	left: 50%;
+	margin-left: -30px;
+}
+.name_blogger .add_news:hover {
+    cursor: pointer;
+/* 	display:none;
+ 	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 0px 15px rgba(0,0,0,1);  
+    box-shadow: 0px 0px 15px rgba(0,0,0,1);
+	border-radius:40px; */
+}
+
+.name_blogger .review div {
+	width:65px;
+	height:50px;
+	margin:40px auto 24px auto;
+	background:url(../images/icons_profile.png) -238px top no-repeat;
+}
+
+.name_blogger .review p {
+	font-family:Arial;  
+	font-size:15px;
+	line-height:1.2;
+	text-align:center;
+	margin-bottom:35px;
+	padding:0 22px;
+}
+
+.name_blogger .review a {
+	display:block;
+	width:60px;
+	height:27px;
+	margin:0 auto;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	color:#333;
+	text-align:center;
+	line-height:27px;
+	background:#fff;
+	border-radius:3px;
+}
+
+.name_blogger .review a:hover {
+	text-decoration:underline;
+}
+
+.name_blogger .add_info  .add_text, .name_blogger .add_info  .add_photo, .name_blogger .add_info .add_video {
+	width:100%;
+	display:block;
+	height:54px;
+	line-height:54px;
+	font-family:Arial;  
+	font-size:15px;
+	color:#161616;
+	text-align:center;
+	border-bottom:1px solid black;
+	padding:0;
+}
+
+.name_blogger .add_info  .add_text:hover, .name_blogger .add_info  .add_photo:hover, .name_blogger .add_info .add_video:hover {
+	text-decoration:underline;
+}
+
+.name_blogger .add_info  .add_text span, .name_blogger .add_info  .add_photo span, .name_blogger .add_info  .add_video span{
+	position:relative;
+	right:30px;
+	margin:14px 0 0px 0;
+	float:right;
+	display:block;
+	width:19px;
+	height:26px;
+	background:url(../images/icons_profile.png) -144px -70px  no-repeat;
+}
+
+.name_blogger .add_info  .add_photo span{
+	width:25px;
+	height:26px;
+	right:63px;
+	background:url(../images/icons_profile.png) -175px -70px  no-repeat;
+}
+
+.name_blogger .add_info  .add_video span{
+	width:24px;
+	height:26px;
+	margin:14px 0 0px 0;
+	background:url(../images/icons_profile.png) -212px -70px  no-repeat;
+}
+
+.image_news .add_info .checkbox_registration {
+	position:relative;
+	top:25px;
+	left:25px;
+	margin:0 0 54px 0;
+	padding:0;
+}
+
+.add_info .checkbox_registration .check {
+	padding:5px 7px 0 0; 
+}
+
+.add_info .checkbox_registration a {
+	color:#13bcbe;	
+}
+
+.add_info .checkbox_registration a:hover {
+	text-decoration:underline;	
+}
+
+.name_blogger .add_info input.submit{
+	display:block;
+	width:120px;
+	height:27px;
+	margin:0 auto;
+	text-align:center;
+	line-height:25px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	color:black;
+	background:#fff;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+.checkboxes.checkbox_registration .check {
+	position:relative;
+	z-index:2;
+}
+
+.checkboxes.checkbox_registration.add_content .check {
+	width:30px;
+	z-index:2;
+}
+
+.checkboxes.checkbox_registration.setting_block p a:hover {
+    color: #00cccc;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.name_blogger .checkbox_registration p {
+	left:0px;
+    cursor: pointer;
+}
+
+.name_blogger .add_info input.submit:hover {
+	background:#ccc;
+}
+
+.unread_news, .download_news, .social_news {
+	position:absolute;
+	top:104px;
+	left:111px;
+	width:59px;
+	height:74px;
+	background:url(../images/icons2.png)  no-repeat;
+}
+
+.unread_news {
+	top:79px;
+	left:111px;
+	width:59px;
+	height:74px;
+	background-position:-185px 0px;
+}
+
+.download_news {
+	left:102px;
+	width:78px;
+	height:78px;
+	background-position:-105px 0px;
+}
+
+.social_news {
+	left: 50%;
+	margin-left: -77px;
+	top: 45%;
+	margin-top: -62px;
+	width: 124px;
+	height: 124px;
+	background: none;
+	z-index: 999;
+	padding: 0 15px;
+}
+.social_news .share_text {
+    text-align: center;
+    display: block;
+    top: 143px;
+    line-height: 1.3;
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.social_news .share_inst {
+	text-align: center;
+	display: none;
+	top: 25px;
+	line-height: 1.3;
+	font-size: 15px;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.social_news a {
+	display: block;
+	height: 52px;
+	width: 52px;
+	margin: 5px;
+	float: left;
+	background-image: url(../images/social_icon.png);
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 0;
+}
+.social_news .fb {
+    background-position: -104px -79px;
+}
+.social_news a.vk {
+    background-position: 1px -79px;
+}
+.social_news a.tw {
+    background-position: -52px -79px;
+}
+.social_news a.in {
+    background-position: -214px -79px;
+}
+.social_news a:hover {
+	opacity:0.8;
+}
+
+.activity_news p {
+	position:absolute;
+	top:189px;
+	left:0;
+	width:100%;
+	text-align:center;
+	font-family:Arial;  
+	font-size:15px;
+	line-height:1.2;
+}
+
+.social_news + p, .download_news + p {
+	top:212px;
+}
+
+.activity_news .exit {
+	left: 9px;
+    position: absolute;
+    top: 6px;
+	display:block;
+	width:19px;
+	height:19px;
+	background:url(../images/icons2.png) -106px bottom  no-repeat;
+}
+
+/* ------- setting -------*/
+
+.ava_link span {
+    display: block;
+    border: 2px solid #fff;
+    margin: 2px 0 0 5px;
+    border-radius: 3px;
+}
+
+#setting_section  .setting_block .check {
+	position: absolute;
+	right: 2px;
+	width: 20px;
+	background-position: 0 -1px;
+	padding: 0;
+	height: 20px;
+	margin: 17px;
+}
+#setting_section .setting_block .check.active {
+	background-position: 0px -30px;
+}
+
+#setting_section  .setting_block  .checkbox  .CheckBoxLabelClass {
+	margin:15px 0 0 15px;
+	padding:0;
+}
+
+
+.select_themes .buttom_selected input, .select_bloggers .buttom_selected input { 
+	background: url("../images/icons_profile.png") no-repeat scroll -332px -72px #FFFFFF;
+    border-radius: 2px;
+    color: #000000;
+    cursor: pointer;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 13px;
+    height: 41px;
+    line-height: 40px;
+    margin: 39px 0 0 120px;
+    text-align: center;
+    text-indent: 27px;
+    width: 154px;
+}
+
+input[type="submit"]:hover {
+	background-color:#ccc;
+}
+
+/* -------- end setting --------*/
+.cabinet_avatar span.side_ava {
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    margin: 1px 0 0 2px;
+}
+
+
+/* profile */
+.user-panel li.four_info.active {
+    border-bottom: 1px solid #333738;
+}
+#ui-datepicker-div .ui-datepicker-calendar th span{
+    color: #000;
+}
+.all_rights {
+    color: #8C8B8B;
+}
+.icon_profile_1 {
+	background:url(../images/icons_profile.png) -28px 0 no-repeat;
+}
+.user-panel li:hover .icon_profile_1, .user-panel li.active .icon_profile_1 {
+	background:url(../images/icons_profile.png) -1px 0px no-repeat;
+}
+.icon_profile_2 {
+	background:url(../images/icons_profile.png) -32px -30px no-repeat;
+}
+.user-panel li:hover .icon_profile_2, .user-panel li.active .icon_profile_2   {
+	background:url(../images/icons_profile.png) -6px -30px no-repeat;
+}
+.icon_profile_3 {
+	background:url(../images/icons_profile.png) -64px -32px no-repeat;
+}
+.user-panel li:hover .icon_profile_3, .user-panel li.active .icon_profile_3 {
+	background:url(../images/icons_profile.png) -101px -32px no-repeat;
+}
+.icon_profile_4 {
+	background:url(../images/icons_profile.png) -78px 1px no-repeat;
+}
+.user-panel li:hover .icon_profile_4, .user-panel li.active .icon_profile_4  {
+	background:url(../images/icons_profile.png) -108px 0 no-repeat;
+}
+
+.user-panel li.trash, .user-panel li.trash:hover {
+	box-shadow:none;
+	background:none;
+	height:26px;
+}
+
+.user-panel li.trash div{
+	margin:20px 0 0 26px;
+	width:22px;
+	height:26px;
+	background:url(../images/icons_profile.png) -143px 0px no-repeat;
+}
+/*end profile */
+
+
+.different_indormation li:hover p {
+	display:none;
+}
+
+
+.different_indormation li:hover ul.info3 {
+	background-position:-425px 0px;
+	top:-148px;
+}
+
+.different_indormation li ul li a.active, .different_indormation li ul li a:hover { 
+	color: #fff;
+}
+
+.info2 .currency span a { 
+	color:#fff;
+}
+
+.currency_trade span {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	color:#8e8e8e;
+	margin-bottom:2px;
+}
+.currency_trade span.money{
+	font-family:'Open Sans',sans-serif;
+	font-size:18px;
+	color:#fff;
+}
+#cabinet_wrapper {
+	
+}
+#cabinet ul.languages {
+	margin-top: 22px;
+	position: absolute;
+	top: 435px;
+	width: 100%;
+}
+
+
+/*---- slider for right sidebar---- */
+
+
+
+/* -------------footer--------------- */
+
+
+.new {
+    display: none;
+}
+
+.contact_copyright li {
+	float: left;
+	color:#8c8b8b;
+	font-family:Arial;
+}
+
+.contact_copyright li a {
+	color:#303030;
+	font-family:Arial;
+}
+
+#searchForm  a.loupe {
+	position:absolute;
+	display:block;
+	top:5px;
+	left:5px;
+	width:20px;
+	height:20px;
+	background:url(../images/social_icon.png) -84px -45px no-repeat;
+}
+
+#searchForm  .setting_search {
+	position:absolute;
+	top:5px;
+	right:14px;
+}
+.mob_search {
+    display: none;
+    background: url(/images/mob_search.png) no-repeat;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    position: relative;
+    top: -3px;
+}
+.setting_search > li {
+	position:relative;
+	width:20px;
+	height:20px;
+	background:url(../images/social_icon.png) -108px -45px no-repeat;
+	cursor:pointer;
+}
+
+.setting_search li  ul {
+	position:absolute;
+	top:-90px;
+	left:-265px;
+ 	display:none; 
+}
+
+.setting_search li:hover ul {
+	display:block;
+	width:307px;
+	height:95px;
+	background:url(../images/pull-down_input.png) no-repeat;
+	z-index:10;
+}
+
+.setting_search li:hover ul li {
+	display:inline-block;
+	height:27px;
+	margin-top:30px;
+	margin-right:5px;
+}
+
+.setting_search li:hover ul li:first-child {
+	margin-left:25px;
+}
+
+.setting_search li:hover ul li  a {
+	display:block;
+	text-align:center;
+	font-family:Arial;
+	font-size:14px;
+	color:black;
+	line-height:27px;
+	padding:0 7px;
+	border:1px solid #999;
+	border-radius:15px;
+}
+
+.setting_search li:hover ul li  a:hover {
+	background:#999;
+	color:#fff;
+	border-color:black;
+}
+
+.logout_wrap {
+    position: absolute;
+	top: 520px;
+}
+
+
+.logout:hover {
+	background-position: center -34px;
+}
+
+.scroller_up { /* scroller_up */
+	z-index:1000;
+	position:fixed;
+	left:0;
+	bottom:50%;
+	width:36px;
+	height:36px;
+	margin-left:5%;
+	background: url(../images/scroller_up.png) no-repeat;
+}
+.scroller_up:hover {
+	cursor:pointer;
+}
+/*------------------ registration form  ----------------------*/
+#registration_form {
+	max-width:1100px;
+	min-width:280px;
+	margin:0 auto;
+}
+
+.registration_title {
+	font-family: Arial;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+    padding-top: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+#form_registration {
+	position:relative;
+	width:600px;
+	height:750px;
+	margin:0 auto;
+}
+
+.personal_information {
+    margin: 16px 0 16px;
+	position:relative;
+    min-height: 35px;
+}
+
+.personal_information select.text {
+	padding: 8px 10px;
+	color: #fff;
+	border: transparent;
+}
+.smf .personal_information .text, .smf .personal_area .textarea, .smf .cleditorMain {
+	width:425px;
+	height:41px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#9C9C9C;
+	padding:0px 10px;
+	border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0;
+    border-radius: 0;
+    background:#fff;
+}
+.personal_area .cke {
+    width: 80%;
+    margin: 0 0 50px 140px;
+}/*
+.personal_area .cke_contents{
+    width: 715px;
+    background:url(../images/back_for_input.png);
+}
+.personal_area .cke_wysiwyg_frame, .personal_area .cke_wysiwyg_frame html {
+    background:url(../images/back_for_input.png);
+}*/
+.regform .personal_information .text {
+    width:200px;
+}
+
+.personal_area .textarea {
+	height:80px;
+	padding:10px 10px;
+    /*margin-bottom: 15px;*/
+    resize: vertical;
+}
+.personal_area {
+    margin: 23px 0 0;
+}
+
+.profile_space {
+    height: 28px;
+}
+
+.news_text .personal_information label {
+    float:none;
+}
+.search-form .personal_information label, .smf .personal_information label, .smf .personal_area label {
+    color: #000;
+}
+.personal_information label.two_string {
+	line-height:15px;
+	padding-top:5px;
+}
+
+.setting2 .checkbox_registration {
+	margin-bottom:0px;
+}
+
+.name_blogger .checkbox_registration {
+	position:absolute;
+	left:70px;
+	bottom: 0;
+}
+
+.checkbox_registration .check, .checkbox_news .check, .check_all .check {
+	width: 20px;
+	height: 20px;
+	background: url(../images/checkbox_radio.png) left -1px no-repeat;
+}
+.checkbox_news .check{
+	margin-bottom: -14px;
+}
+#form_registration .checkbox_registration .check{
+        top: -12px;
+}
+.checkbox_registration .check p{
+	font-family:Verdana;
+}
+
+.checkbox_registration .check.active, .checkbox_news .check.active, .check_all .check.active{
+	background: url(../images/checkbox_radio.png) left -30px no-repeat;
+}
+div.all_blog, div.all_theme {
+    float: right;
+    width:24px;
+    margin-right: 19px;
+}
+.check_all {
+    height:26px;
+    margin: 27px 13px 15px 0;
+}
+.check_all span {
+    float: right;
+    margin: 2px 24px 0 0;
+    cursor: pointer;
+    display: none;
+}
+.checkbox_registration label a {
+	color:#13b5b7; 
+}
+.checkbox_registration label a:hover {
+	text-decoration:underline;
+}
+
+.buttom_registration {
+	float:right;
+	margin: 35px 0 0;
+	top:28px;
+	right:45px;
+}
+#chk_rules a {
+    color: #1CA2A3;
+    text-decoration: underline;
+}
+#chk_rules a:hover {
+    text-decoration: none;
+}
+
+.spacer { 
+	clear:both;
+	height:100px;
+}
+
+.sex_select li{
+	font-family:Verdana, Geneva, sans-serif;
+}
+.sex_select li:first-child {
+	margin-left:0px;
+}
+
+.sex_select li .text {
+	width:45px;
+	height:41px;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+
+.sex_select li .last {
+	width:61px;
+}
+
+.sex_select li  span {
+	margin: 0 18px 0 99px;
+}
+
+
+.personal_information .sity .text {
+	width:159px;
+	display:inline-block;
+}
+
+.personal_information .sity span {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	margin:0 20px;
+}
+.login_registration p.hint {
+    text-transform: none;
+    font-size: 13px;
+}
+/*------------------ end registration form  ----------------------*/
+/*------------------ my setting  ----------------------*/
+.photos {
+	left: 17px;
+    position: absolute;
+    top: 0;
+	width:105px;
+    margin: 0;
+}
+.photos li {
+    width: 102px;
+    margin: 0 auto 10px;
+}
+.photos_news {
+	position: relative !important;
+}
+ul.photos_news {
+	list-style: none;
+    width: 400px;
+    height: 270px;
+}
+.smf div.photos_news {
+    width: 100%;
+    height: 235px;
+    margin: 0;
+}
+ul.photos_news li {
+	float: left;
+}
+.smf div.photos_news li.display_thumb {
+    float: none;
+}
+.photos img, .photos .preview {
+	height: 98px;
+    width: 98px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.img_cont {
+	margin-bottom: 10px;
+	float: left;
+	background-image: url(../images/img-news-new.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100px;
+	height: 100px;
+	border: 2px solid #FFF;
+	border-radius: 2px;
+}
+.img_cont img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.smf .photos img {
+    height: 150px;
+    width: auto;
+}
+.thumb_but {
+    width: 245px;
+    margin: 0 auto;
+}
+.thumb_but span:first-child {
+    margin-right: 5px;
+}
+
+.smf .photos .doing_photo {
+    color: #000;
+}
+.avatar_profile {
+    margin: 0 auto 9px;
+    width: 110px;
+}
+#delete_photo {
+    background: url("../images/delava.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    position: absolute;
+    right: -6px;
+    top: -7px;
+    width: 18px;
+	z-index: 999;
+}
+.photos .span2 {
+    position: absolute;
+}
+/*------------------ end my setting   ----------------------*/
+
+/* -----------popup windows---------- */
+#loader {
+    display: none;
+    left: 313px;
+    position: absolute;
+    top: 160px;
+}
+#fileUpload {
+    width: 700px;
+    margin:0 auto;
+    min-height: 200px;
+}
+.blog_pop {
+	padding: 35px 0 10px;
+    width: 750px;
+    background: url("../images/backgroundpop.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    margin: 0 auto 60px;
+    position: relative;
+}
+
+#crop {
+    display: none;
+}
+#fileupload_ava {
+    height: 53px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 103px;
+    cursor: pointer;
+}
+.display_thumb {
+    position: relative;
+}
+
+.btn-close,
+.btn-close2 {
+	position:absolute;
+	top: -2px;
+	left:-25px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/social_icon.png) -138px -52px;
+	cursor:pointer;
+	clear:both;
+	display: none;
+}
+
+.btn-close2 {
+	background-position:-167px bottom;
+}
+
+.hide-layout, .hide-layout2 {
+	position: fixed;
+	bottom: 0;  
+	top: 0;
+	display:none;
+	width: 100%;
+	height: 100%;
+	background: #fff; 
+	opacity: 0.5; 
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+	z-index: 1500;
+}
+
+.hide-layout2 {
+	background:black;
+}
+
+.success {
+    margin: 35px 0;
+}
+
+#login-form .mail#UserLogin_username, #registration-form .mail#UserLogin_username {
+    border-radius: 3px 3px 0 0;
+}
+#login-form .mail#UserLogin_password {
+    border-radius: 0 0 3px 3px;
+}
+
+.login_registration .reg_row .disappear {
+    color:#A6A6A6;
+    left: 18px;
+    position: absolute;
+    top: 9px;
+}
+.login_registration .reg_row input, .login_registration .reg_rec input {
+	display:block;
+	width:246px;
+	height:35px;
+	margin:0 auto;
+	padding:0 10px;
+    border-radius: 0;
+}
+.login_registration .rec_row .mail_recov {
+    width: 138px;
+}
+.login_registration input#UserLogin_rememberMe{
+    width: 50px;
+    float: left;
+    display: none;
+}
+.login_registration label{
+	display:block;
+    float: left;
+	width:100px;
+	height:26px;
+	margin:0 auto;
+	padding:8px 5px 0;
+    border-radius: 0;
+}
+
+.login_registration  input.mail {
+	border:1px solid #1e1e1f;
+    color: #999;
+}
+#UserLogin_email {
+    border-radius: 3px 3px 0 0;
+}
+.login_registration .forget_password, .remember {
+	text-align: right;
+	margin: 11px auto 0;
+	width: 265px;
+}
+.login_registration .remember {
+    margin:-17px auto 20px;
+    text-transform: none;
+    font-size: 15px;
+}
+.login_registration .checkbox_registration {
+    height: 20px;
+    left: 229px;
+    margin: 10px 0 70px;
+    position: absolute;
+    top: 89px;
+}
+.login_ok_close, .reg_ok_close {
+    cursor: pointer;
+}
+#recover-form .login_ok_close {
+
+}
+.login_registration .forget_password  a.pass{
+	left:0px;
+
+}
+.login_registration .forget_password  a:hover{
+	text-decoration:none;
+    color: #fff;
+}
+.login_registration .forget_password .ok {
+	right:0;
+}
+
+/* mytype */
+.mytape, .followus{
+	background:url(../images/Pattern.png);
+}
+.thumb {
+	border-radius: 50%;
+}
+
+.mytape a, .mytape span.csubscribe {	
+	position:relative;
+	display:inline-block;
+	margin:0 0 35px 7px;
+    cursor: pointer;
+}
+.mytape_ok {
+    background: url("/images/mytape_ok.png") no-repeat center transparent;
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.mytape a:first-child {
+	margin-left:0px;
+}
+
+.mytape span.csubscribe span.catname {
+	position:absolute;
+	display:block;
+	width:100%;
+	height:100%;
+	bottom:0px;
+	line-height:300px;
+	text-align:center;
+	font-size:15px;
+}
+.mytape a:hover span, .mytype_ok_close:hover, .followus_ok_close:hover, .mobile_gadgets  a:hover span{
+	text-decoration:none;
+    color: #fff;
+}
+.mytape a .mytype_ok {
+
+	background:url(../images/mytape_ok.png) no-repeat;
+}
+
+.mytype_ok_close {
+	position:absolute;
+	bottom:0px;
+	left:91%;
+	font-size:15px;
+}
+/* followus */
+
+
+.checkbox_followus {
+	width:325px;
+	height:20px;
+	margin:0 auto;
+}
+
+.checkbox_followus .radio2 {
+	display:inline-block;
+	text-align:right;
+	font-family:Arial;
+	font-size:15px;
+	color:#fff;
+	height:13px;
+	padding:0 0 0 20px;
+	background: url(../images/checkbox_radio2.png) left top no-repeat;
+}
+
+.checkbox_followus .RadioSelected {
+	background: url(../images/checkbox_radio2.png) left bottom no-repeat;
+}
+
+.checkbox_followus #Label1 {
+	margin-right:20px;
+}
+
+.login_ok_close {
+    
+}
+/* recommendations */
+.recommendations {
+	text-align: center;
+	background: url(../images/backgroundpop.png);
+	padding: 40px 80px;
+	left: 0 !important;
+	position: relative;
+}
+#friends {
+	display: none !important;	
+}
+.recommendations_checkbox {
+	overflow:auto;
+	height: 278px;;
+	width:460px;
+	margin:0 auto;
+	padding:22px 0;
+	margin-bottom: 20px;
+	background: rgba(0,0,0, 0.3);
+    -webkit-box-shadow:inset 0px 1px 1px rgba(0,0,0,1);
+    -moz-box-shadow:inset 0px 1px 1px rgba(0,0,0,1);
+    box-shadow:inset 0px 1px 1px rgba(0,0,0,1);
+}
+
+.check input[type=checkbox] {
+	opacity: 0; 
+    -moz-opacity: 0; 
+    -khtml-opacity: 0; 
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+	position:absolute;
+	left:-10000px;
+}
+
+.checkboxes2 {
+	position:relative;
+	width:215px;
+	height:29px;
+	margin:0px auto 11px;
+}
+
+.checkboxes2 .check {
+	float:right;
+	background: url(../images/checkbox_radio2.png) right top no-repeat;
+	cursor: pointer;
+	height:13px;
+	width:13px;
+	margin:8px 0;
+}
+.checkboxes2 .check.active {
+	background: url(../images/checkbox_radio2.png) right bottom no-repeat;
+}
+
+.recommendations_checkbox .checkboxes2  p {
+	float:left;
+	width:160px;
+	text-align:center;
+	font-family:Arial;
+	font-size:15px;
+	text-transform:none;
+	line-height:29px;
+	margin:0px 5px;
+}
+
+.recommendations_checkbox .checkboxes2 img {
+	float:left;	
+	border: 2px solid #fff;
+	border-radius: 2px;
+	width: 40px;
+	height: 40px;
+}
+
+#user-info {
+	display: none;
+	font-size: 18px;
+}
+
+#user-info img {
+	border: 2px solid #fff;
+	border-radius: 2px;
+}
+.buttom_recommendations {
+	text-align: right;
+}
+.mobile .buttom_recommendations{
+	bottom:-85px;
+	left:89%;
+}
+.buttom_recommendations input{
+	font-size:15px;
+	background:none;
+	cursor:pointer;
+}
+
+.buttom_recommendations input:hover {
+	color:#ccc;
+	background:none;
+}
+
+.recommendations_radioblock .radio1.active{
+	background: url(../images/checkbox_radio2.png) left -26px no-repeat;
+}
+
+
+/* MY STYLES*/
+
+div.modal-body {
+    width: 750px;
+    background: #fff;
+    max-height: none;
+    overflow: hidden;
+}
+div.modal {
+    left: 44%;
+    position: absolute;
+}
+.unread_news, .news_bookmark, .unread_msg {
+    display: none;
+}
+.one_info a.active {
+    color: #fff;
+}
+div.form {
+    float: left;
+}
+
+#searchresultdata {
+    float: left;
+    width: 100%;
+}
+.social_news {
+    display: none;
+}
+ul.main {
+    border-top: 1px solid #2F3F57;
+    display: none;
+    list-style: none outside none;
+    margin: 10px 0 0;
+    min-height: 100%;
+    padding: 0;
+    width: 69px;
+}
+#adm_panel {
+    z-index: 10000;
+    top: 0;
+    position: fixed;
+}
+.adm_but {
+    width: 20px;
+    height: 26px;
+    position: absolute;
+    top:16px;
+    z-index: 30;
+    cursor: pointer;
+}
+.adm_but.notshow {
+    background: url("img/subnav_button_left.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    left: 83px;
+    display: none;
+}
+.adm_but.show {
+    background: url("img/subnav_button_right.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+}
+.smf ul.main {
+    top: 0;
+}
+ul.main li a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("../img/backgrounds/bg_box_head_dark.jpg") repeat scroll 0 0 transparent;
+    border-color: #4D6383 #2F3F57 #2F3F57;
+    border-image: none;
+    border-right: 1px solid #2F3F57;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    padding-right: 2px;
+    padding-top: 5px;
+    text-align: center;
+    width: 79px;
+}
+ul.main li a span {
+    display: inline-block;
+    font-size: 11px;
+}
+ul.main li a span.text {
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 #333333;
+    width: 68px;
+}
+ul.main li a span {
+    display: inline-block;
+    font-size: 11px;
+}
+ul.main li a:hover{
+    border-right: 3px solid #54A1E6;
+}
+
+/* REGISTRATION */
+.regform {
+    width:380px;
+    margin: 0 auto 70px;
+}
+._share_fb {
+    display: none;
+    margin: 82px auto;
+    width: 82px;
+}
+.form {
+    width: 97.8%;
+}
+.row {
+    width: 100% !important;
+}
+.row textarea {
+    width: 97%;
+}
+.bloger_ava, .form_ava {
+    border: 2px solid #FFFFFF;
+    border-radius: 3px;
+}
+.bloger_ava {
+    display: block;
+    margin: 50px auto 25px;
+}
+#setting_section .setting_block span.theme_bloger {
+    border: 2px solid #FFFFFF;
+    border-radius: 2px 2px 2px 2px;
+    margin: 2px 0 0 7px;
+    position: relative;
+}
+.ava_link {
+    float: left;
+}
+.form_ava {
+    
+}
+div.button {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+}
+.jcrop-holder {
+    margin: 0 auto;
+}
+#crop_submit {
+    text-align: center;
+}
+#news-form .checkbox_news p {
+    top: 30px;
+}
+.delphoto {
+    display: block;
+    opacity: 0;
+    height: 17px;
+    margin: 0 0 20px 331px;
+    padding-top: 10px;
+    width: 73px;
+}
+select.text option {
+    background: #272A2C;
+    padding: 8px 3px 8px 10px;
+}
+.modal {
+    margin-bottom: 20px;
+}
+#crop_target .preview {
+    margin:0 auto;
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
+/* CBOX */
+#cboxTopLeft, #cboxTopCenter, #cboxTopRight, #cboxMiddleLeft, #cboxMiddleRight, #cboxBottomLeft, #cboxBottomCenter, #cboxBottomRight, #cboxClose {
+    display: none;
+}
+#cboxContent {
+    background: none !important;
+}
+#cboxWrapper, #cboxContent, #colorbox, #cboxLoadedContent {
+    overflow: visible !important;
+}
+#cboxOverlay {
+	opacity: 0.5;
+}
+#cboxLoadedContent {
+    height: auto;
+    background: none !important;
+}
+#back-top {	position: fixed;	top: 50%;	left: 30px; display: none;
+}
+#back-top a {	width: 40px;	height: 40px;	display: block;	text-align: center;	font: 14px/100% Arial,Helvetica,sans-serif;	text-decoration: none;	color: #bbb;	-webkit-transition: 1s;	-moz-transition: 1s;	transition: 1s;
+}
+#back-top a:hover {	color: #000;
+}
+#back-top span {	width: 40px;	height: 40px;	display: block;	margin-bottom: 7px;	background: url(ПУТЬ К КАРТИНКЕ УКАЖИТЕ ВАШ) no-repeat center;	-webkit-border-radius: 12px;	-moz-border-radius: 12px;	border-radius: 12px;	-webkit-transition: 1s;	-moz-transition: 1s;	transition: 1s;
+}
+/* CBOX END */
+/* MY STYLES END */
+
+
+/* mobile */
+.mobile{
+	width: 630px;
+	min-height:390px;
+	background:url(../images/all_background.png);
+	z-index:2000;
+    padding-top: 1px;
+}
+.mobile .dop_text {
+    width: 460px;
+}
+.mobile_gadgets {
+	width:365px;
+	margin:0 auto 20px auto;
+}
+
+.mobile_gadgets  a {	
+	position:relative;
+	display:inline-block;
+	margin:0 0 40px 65px;
+}
+
+.mobile_gadgets  a:first-child {
+	margin-left:0px;
+}
+
+.mobile_gadgets  a span {
+	position:absolute;
+	display:block;
+	width:100%;
+	bottom:-20px;
+	text-align:center;
+	font-size:15px;
+}
+
+
+.popup_news .date {
+	font-size:14px;
+	color: #656565;
+    margin-top: 5px;
+}
+
+.popup_news .source p {
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: #656565;
+}
+
+
+.popup_news .source {
+    /*padding-left: 70px;*/
+    overflow: hidden;
+}
+
+.popup_news article > span {
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+.popup_news article h1 {
+	font-size:24px;
+	color:#03a093;
+	margin:26px 0 25px;
+	text-align:left;
+	line-height:1.1;
+    font-weight: normal;
+}
+
+.popup_news article p {
+	color:black;
+	line-height:1.4;
+	margin-bottom:20px;
+	font-family: 'Istok Web', sans-serif;
+}
+
+.popup_news article img {
+	margin: 20px 0;
+}
+
+.popup_news article .video_news{
+	width:100%;
+	height:400px;
+	margin-bottom:20px;
+}
+.popup_news article > div {
+    color: #000;
+}
+
+.popup_news .source a{
+	font-size:16px;
+	color:#056ac7;
+	margin-bottom:40px;
+	word-wrap: break-word;
+}
+.popup_news .source a:hover {
+	text-decoration:underline;
+}
+/* -----------end popup windows---------- */
+#faq_search_input {
+	color: #000;
+}
+
+.add-news {
+	position: relative;
+	padding-bottom: 1px;
+	width: 100%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 18px;
+	margin-top: 1px;
+	background: rgba(65, 65, 65, 0.45);
+	box-shadow: 0 1px 2px 0px #1D1D1D;
+	border-radius: 3px;
+	border-top: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+#fileupload {
+	color: #1F1F1F;
+	position: relative;
+	left: 84px;
+}
+
+select.languages {
+	display: none;
+	width: 100%;
+	margin-top: 22px;
+	border: none;
+	padding: 5px;
+	background: rgba(65, 65, 65, 0.45);
+	box-shadow: 0 1px 2px 0px #1D1D1D;
+	border-radius: 1px;
+	border-top: 1px solid rgba(128, 128, 128, 0.1);
+}
+select.languages option {
+	background: #272A2C;
+}
+.shadow_and_news_icon .panel a.bookmark.greenbook {
+    background-position: 1px -160px;
+}
+.create-news {
+	max-width: 550px;
+	margin: 0 auto 35px;
+	font-size: 14px;
+	font-family: verdana;
+}
+.unread_msg {
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 44px;
+	line-height: 1.3;
+	font-size: 15px;
+	margin: 0 20px;
+}
+.checkboxes.checkbox_news {
+	margin-top: 30px;
+}
+
+section.popup_news * {
+	color: #000 !important;
+	font-weight: normal;
+}
+
+section.popup_news p {
+	color: #000 !important;
+	line-height: 1.4 !important;
+	font-family: 'Istok Web', sans-serif !important;
+}
+.inner-article > * {
+    line-height: 1.4 !important;
+    margin-bottom: 20px !important;
+    font-weight: normal !important;
+    font-family: 'Istok Web', sans-serif !important;
+}
+section.popup_news article a {
+	line-height: 1.4 !important;
+	font-family: 'Istok Web', sans-serif !important;
+}
+span#resetcrop {
+	margin-left: 10px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.rec_text {
+	margin: 0 -50px 60px;
+	text-align: center;
+	font-size: 15px;	
+}
+input#UserLogin_verifyPassword {
+	border-radius: 0 0 3px 3px;
+}
+
+.contacts a {
+	text-decoration: underline;
+}
+.contacts a:hover {
+	text-decoration: none;
+}
+.error404 {
+    background: url(/images/404.png) no-repeat;
+    width: 350px;
+    height: 320px;
+    margin: 0 auto;
+}
+.error_text {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}

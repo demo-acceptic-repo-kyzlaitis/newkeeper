@@ -1,0 +1,295 @@
+#overlay {
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:#111;
+	z-index:1000;
+	display: none;
+}
+#preloader {
+	background: #000000 url(/images/preloader.gif) no-repeat 12px 10px;
+	font-size: 11px;
+	height: 20px;
+	left: 50%;
+	line-height: 20px;
+	margin: -20px 0 0 -45px;
+	padding: 10px;
+	position: fixed;
+	text-align: left;
+	text-indent: 36px;
+	top: 50%;
+	width: 90px;
+	z-index: 1209;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	color: #FFF;
+	text-shadow:none;
+	display: none;
+}
+#fileupload {
+    height: 23px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    cursor: pointer;
+}
+#resetcrop, .btn {
+    cursor: pointer;
+}
+::-webkit-file-upload-button { cursor:pointer; }
+.jcrop-holder #preview-pane {
+  display: block;
+  position: absolute;
+  z-index: 2000;
+  top: 10px;
+  right:0;
+  padding: 6px;
+  border: 1px rgba(0,0,0,.4) solid;
+  background-color: white;
+
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+
+  -webkit-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* The Javascript code will set the aspect ratio of the crop
+   area based on the size of the thumbnail preview,
+   specified here */
+#preview-pane .preview-container {
+  width: 282px;
+  height: 282px;
+  overflow: hidden;
+}
+.news_title {
+    padding:0;
+}
+.adm_pop #fileUpload {
+    background: none repeat scroll 0 0 #F5F5F5;
+    text-align: center;
+}
+#fileUpload img {
+    max-width: none;
+    
+}
+#loader {
+    display: none;
+}
+#crop_submit {
+    text-align: center;
+}
+.adm_pop {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 825px;
+}
+#change_arrow {
+    display: none;
+}
+.adm_pop .wrap {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    width: 800px;
+}
+.jcrop-holder {
+    position: static;
+}
+.pic_button {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    width: 185px;
+}
+.pic_button #addPic {
+}
+a.btn {
+    background: -moz-linear-gradient(center top , #33a6cc, #309bbf) repeat scroll 0 0 #309bbf;
+    border: 0 none;
+    border-radius: 5px;
+    color: #fff;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    vertical-align: middle;
+    cursor: pointer;
+    height: 25px;
+    padding: 4px 5px 5px;
+    width: auto;
+}
+.upload_button {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+.note {
+	margin-top: 20px;
+	xtext-align: center;
+}
+.blog_pop {
+	width: 750px;
+	border-radius: 3px;
+	margin: 0 auto 60px;
+}
+.begin_upload {
+    margin: 0 auto;
+    padding: 53px 0;
+    text-align: center;
+    width: 300px;
+}
+.begin_upload span {
+    display: block;
+    font-size:15px;
+    margin-bottom: 20px;
+}
+.btn_popup, .adm_btn_popup, .crop_ok {
+    margin:10px 0;
+}
+.crop_ok #cropped {
+    margin-right:55px;
+}
+.crop_ok span {
+    cursor: pointer;
+    padding: 4px 9px;
+	background: #fff;
+	border-radius: 5px;
+	margin-right: 12px;
+}
+.display_thumb {
+    float: left;
+}
+.dashboard #cboxLoadedContent, .dashboard #cboxContent {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: auto !important;
+}
+
+
+
+/* header */
+#admin_head_menu {
+    display: block;
+    position: absolute;
+    left: 160px;
+    top: 7px;
+}
+#admin_head_menu li {
+    margin: 0 10px;
+    padding: 1px 0 10px;
+}
+.submenu {
+    display: none;
+    left: -5px;
+    position: absolute;
+    top: 23px;
+    width: 250px;
+    background: #444;
+    line-height: 1;
+}
+#header .submenu li {
+    float: none;
+    margin: 0;
+    background: -moz-linear-gradient(center top , #444444, #333333) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #EEEEEE;
+    padding: 10px;
+}
+
+/* index */
+
+.left_cell, .right_cell {
+    display: inline-block;
+}
+.right_cell {
+    width: 38%;
+}
+.left_cell {
+    width: 60%;
+}
+
+.sublinks {
+    float: left;
+    margin-left: 10px;
+}
+.sublinks a {
+    display:block;
+    margin: 5px 0;
+}
+
+.grid-view a {
+    /*margin: 0 10px;*/
+}
+input[type=button] {
+    margin: 0 10px 0 0;
+}
+input[type=button]:hover {
+    background: #A0C8D5;
+}
+
+.create_button {
+    float:right;
+}
+.button_block {
+    margin: 0 0 20px;
+}
+a.active {
+    background: none repeat scroll 0 0 #ffffff;
+    border-radius: 3px;
+    color: #000000 !important;
+    padding: 3px 7px;
+}
+#preview-pane {
+	display: none;
+}
+.row_title {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #AFAFAF;
+}
+.hidden {
+	display: none;
+}
+
+input.calendar {
+	width: 130px;
+}
+/* css for timepicker */
+.ui-datepicker {
+	display: none;
+}
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 45%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui_tpicker_hour, .ui_tpicker_minute, .ui_tpicker_second { padding: 7px 0; }
+.ui-timepicker-div dd > div { position: relative; }
+.ui-timepicker-div dd > div > a { 
+	width: 1px;
+	height: 10px;
+	display: block;
+	position: absolute;
+	border-radius: 3px;
+	top: -5px;
+	background: #9495A3;
+}
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 45% 10px 10px; }

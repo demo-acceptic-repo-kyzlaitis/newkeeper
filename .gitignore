@@ -1,0 +1,10 @@
+
+!assets/.gitignore
+protected/runtime/*
+!protected/runtime/.gitignore
+protected/data/*.db
+
+.idea/
+
+uploads/
+node_modules/

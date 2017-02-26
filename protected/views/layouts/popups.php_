@@ -1,0 +1,52 @@
+<?php 
+if(Yii::app()->user->isGuest){
+    unset(Yii::app()->session['cat_choice']);
+    if(!isset(Yii::app()->session['cat_choice'])){
+        Yii::app()->session['cat_choice'] = time();
+    }
+    if( (time() - Yii::app()->session['cat_choice']) < 30 || ((time() - Yii::app()->session["cat_choice"]) > 3600*24) ){
+    ?>
+    <script>
+    setTimeout(function(){
+        $.post('/category/index',{"asDialog" : 1},function(html){
+            $("#id_category").html(html);
+        }).done(function(){
+         $(".modal-body").addClass("mytape");
+        });
+    },3000-<?php print 1000*(time() - Yii::app()->session['cat_choice']); ?>);
+    </script>
+<?php
+        if( ((time() - Yii::app()->session["cat_choice"]) > 3600*24) )
+        {
+            Yii::app()->session["cat_choice"] = time() - 31;
+        }
+    }
+}else{
+	unset(Yii::app()->session['followus_time']);
+	if(!isset(Yii::app()->session["followus_time"]) || (((time() - Yii::app()->session["followus_time"]) > 3600*24*7) && Yii::app()->session["follow_later"] == 1)){ ?>
+        <script>
+        setTimeout(function(){
+            showPopup('followus');
+        }, 2000);
+        </script>
+        <?php Yii::app()->session["followus_time"] = time();
+    }
+    unset(Yii::app()->session['friends_time']);
+	if( ( !isset(Yii::app()->session["friends_time"]) || (((time() - Yii::app()->session["friends_time"]) > 3600*24) && Yii::app()->session["friends_later"] == 1) ) && Yii::app()->getModule('user')->user()->id_fb){ ?>
+        <script>
+        setTimeout(function(){
+    //        showPopup('friends');
+		}, 2400);
+        </script>
+        <?php Yii::app()->session["friends_time"] = time();
+    }
+	unset(Yii::app()->session['mobile_time']);
+	if(!isset(Yii::app()->session["mobile_time"]) || (((time() - Yii::app()->session["mobile_time"]) > 3600*24) && Yii::app()->session["mobile_later"] == 1) ){ ?>
+        <script>
+        setTimeout(function(){
+            showPopup('mobile');
+        }, 10000);
+        </script>
+        <?php Yii::app()->session["mobile_time"] = time();
+    }
+}

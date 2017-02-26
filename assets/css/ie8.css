@@ -1,0 +1,92 @@
+.cabinet_avatar { 
+	background:#333;
+}
+
+.profile_information li, .different_indormation li{ 
+	background:#333;
+	border-bottom:1px solid #666;
+}
+
+.languages li a  {
+	background:#333;
+}
+
+.languages li a.active, .languages li a:hover{ 
+	background:black;
+}
+.profile_information li.active {
+	background:black;
+}
+
+.profile_information li.trash {
+	border:none;
+}
+
+.text{
+	line-height:3;
+}
+
+.image_news .description_news {
+	background:black;
+}
+
+#main_section .image_news, #main_section .activity_news {
+	background:#333;
+}
+
+.blogger_blocks li{
+	background:#333;
+	border-bottom:2px solid black;
+}
+.blogger_blocks li.selected{
+	border:none;
+}
+
+.different_indormation li ul li {
+	border:none;
+}
+
+#main_section .shadow_and_news_icon,  #main_section .add_infos { 
+	top:0;
+	display:none;
+	background: black;
+	transition:none;
+}
+
+ #main_section .add_infos  {
+	background:none;
+}
+
+#main_section .image_news:hover  .shadow_and_news_icon,  #main_section:hover .add_infos{ 
+	display:block;
+}
+
+#setting_section .setting_block { 
+	background:#333;
+	border-bottom:1px solid #666;
+}
+
+.date_birth_radio .radio2 { 
+	background:#333;
+}
+
+.photos .doing_photo:hover { 
+	background:#333;
+}
+#searchForm  input {
+	line-height:25px;
+}
+.login_registration input {
+	line-height:35px;
+}
+
+
+@media screen and  (max-width: 830px){
+.main_nav li a.active {
+	display:block; 
+	}
+.main_nav li a:hover {
+	color:#000; 
+	background:#fff;
+	}
+}

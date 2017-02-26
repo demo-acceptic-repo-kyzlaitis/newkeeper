@@ -1,0 +1,49 @@
+.wrapper-users-list {
+    float: left;
+    width: 200px;
+}
+
+.class {
+    width: 100px;
+}
+li > img.image-shadow {
+
+    -webkit-box-shadow: -14px 15px 20px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -14px 15px 20px -4px rgba(0,0,0,0.75);
+    box-shadow: -14px 15px 20px -4px rgba(0,0,0,0.75);
+}
+
+
+li > img {
+    margin-top: 20px;
+}
+
+h4 {
+    float: left;
+}
+
+ul.social-stuff > li {
+
+    float: left;
+    margin-top: 30px;
+}
+
+.some-images {
+    float: left;
+    display: block;
+}
+
+.selected-user {
+    width: 200px;
+    margin-left: 900px;
+    height: 400px;
+}
+
+.recent-comments {
+    display: block;
+}
+
+.name-of-selected-user {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

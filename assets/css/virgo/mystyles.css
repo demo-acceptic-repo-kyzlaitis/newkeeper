@@ -1,0 +1,245 @@
+/* please use this file for your own styles 
+ * it's need for easiest update of newest wersions
+*/
+.content a {
+    color: #08c;
+}
+div.row {
+    margin-left: 30px;
+    width: 315px;
+}
+div.row.buttons {
+    float: left;
+    padding: 0;
+    margin-top: 20px;
+}
+ul.main li a{
+    background: url('../../images/menu_fon.png') right center repeat #000 !important;
+    padding-right: 0px;
+    border-right: 3px solid #54A1E6;
+    width: 79px;
+}
+.smf ul.main li a{
+    background: url('../img/backgrounds/mainNav_active.png') right center no-repeat #394960 !important;
+}        
+.header .logo {
+    background: none;
+}
+
+.source_upld span input{
+    cursor: pointer;
+    width: 220px;
+    color:#000;
+}
+.personal_information .source_upld {
+    padding: 4px 0 0 0;
+    display: block;
+	line-height: 34px;
+	font-size: 14px;
+    background:url(../images/all_background.png);
+    width: 143px;
+}
+.personal_information .source {
+    float: left;
+}
+.personal_information .source_upld input {
+    opacity: 0.01;
+}
+.personal_information .preview, .personal_information .thumb, .noimage {
+    margin-left: 140px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
+.noimage {
+	background: url("/images/nofoto.jpg") no-repeat;
+	
+}
+.source_upld span{
+    margin: 4px 10px 0 0;
+    display: block;
+    float: left;
+	width: 25px;
+    height: 26px;
+    /*background: url(../../images/icons_profile.png) -175px -70px no-repeat;*/
+}
+.personal_area {
+    margin: 30px 0 0;
+}
+.cleditorToolbar {
+    margin-top: 10px;
+    background: none repeat scroll 0 0 #CCCCCC;
+    border-radius: 3px;
+    padding: 1px 1px 0;
+}
+.smf #main_section {
+    margin-bottom: 100px;
+}
+.grid-view a {
+    color: #503F3F;
+}
+.grid-view .checker input {
+    opacity: 1 !important;
+}
+p.comment {
+    margin: 0;
+}
+.personal_information .checkboxes .check {
+    margin-left: 140px;
+}
+.personal_information .checkboxes p {
+    top: -21px !important;
+    left: 177px !important;
+}
+.noimage {
+    display: block;
+    margin: 0 auto;
+    height: 95px;
+    width: 116px;
+}
+.sorting input, .sorting_disabled input {
+    display: none;
+}
+.search-form {
+    width: 583px;
+}
+.search-button {
+    color: #000;
+}
+.block-fluid img {
+    display: block;
+    margin: 0 auto;
+}
+.span2 {
+    font-size: 11px;
+}
+.adm_check {
+    
+}
+.row-form > [class^="span"] {
+    color: #333333;
+    line-height: 20px;
+}
+.news_checkbox .span2 {
+    width: 300px;
+}
+.news_checkbox .checker {
+    display: block;
+}
+.news_checkbox p {
+    margin: 0;
+    width: 400px;
+    height: 20px;
+    position: relative;
+    top: 24px;
+}
+.news_checkbox {
+    padding-bottom: 30px;
+}
+.grid-view table.items {
+    width: 50%;
+}
+.smf .form {
+    width: 100%;
+}
+body.smf .paginate_button a {
+    color: #503F3F;
+}
+.dataTables_paginate {
+    display: none;
+}
+.pagin {
+    float:right;
+}
+
+.jcrop-holder #preview-pane {
+  display: block;
+  position: absolute;
+  z-index: 2000;
+  top: 10px;
+  right:-305px;
+  padding: 6px;
+  border: 1px rgba(0,0,0,.4) solid;
+  background-color: white;
+
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+
+  -webkit-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* The Javascript code will set the aspect ratio of the crop
+   area based on the size of the thumbnail preview,
+   specified here */
+#preview-pane .preview-container {
+  width: 282px;
+  height: 282px;
+  overflow: hidden;
+}
+.news_title {
+    padding:0;
+}
+.smf .adm_pop #fileUpload {
+    background: none repeat scroll 0 0 #F5F5F5;
+    text-align: center;
+}
+#fileUpload img {
+    max-width: none;
+}
+.adm_pop {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 745px;
+}
+#change_arrow {
+    display: none;
+}
+.adm_pop .wrap {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    width: 725px;
+}
+.pic_button {
+    text-align: center;
+}
+.begin_upload {
+    margin: 0 auto;
+    padding: 53px 0;
+    text-align: center;
+    width: 300px;
+}
+.begin_upload span {
+    display: block;
+    font-size:15px;
+    margin-bottom: 20px;
+}
+.adm_btn_popup, .crop_ok {
+    margin:10px 0;
+}
+.btn_popup {
+    float: left;
+    margin: 36px 10px;
+}
+.crop_ok #cropped {
+    margin-right:55px;
+}
+.crop_ok span {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 10px;
+}
+.news_title .row-form:first-child {
+    border-top:  none;
+}
+#resetcrop {
+    display: none;
+}
+.display_thumb {
+    float: left;
+}

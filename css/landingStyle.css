@@ -1,0 +1,358 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+    background: url("../images/bg_grad1.png") no-repeat center top;
+    background-color: #252525;
+
+    /*background: -moz-linear-gradient(bottom,rgba(24,24,24,1),rgba(0,0,0,1)) no-repeat ; *//*Fx 3.6-15*//* *//* For Firefox 3.6 to 15 *//*;*/
+    font: "Roboto", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    min-width: 1050px;
+    width: 100%;
+    /*left: 50%;*/
+
+
+
+    /*background: rgba(24,24,24,1);*/
+    /*background: -moz-linear-gradient(bottom,rgba(24,24,24,1),rgba(0,0,0,1));*/
+    /*background: -webkit-gradient(linear, bottom,rgba(24,24,24,1),rgba(0,0,0,1));*/
+    /*background: -webkit-linear-gradient(bottom,rgba(24,24,24,1),rgba(0,0,0,1));*/
+    /*background: -o-linear-gradient(bottom,rgba(24,24,24,1),rgba(0,0,0,1));*/
+    /*background: -ms-linear-gradient(bottom,rgba(24,24,24,1),rgba(0,0,0,1));*/
+    /*background: linear-gradient(to bottom,rgba(24,24,24,1),rgba(0,0,0,1));*/
+
+}
+
+@media (max-width: 1066px) {
+    body {
+        background-position: -342px 0%;
+    }
+}
+#wrapper {
+    position: relative;
+    width: 1050px;
+    margin: 0 auto;
+    height: 1300px;
+    top: 0px;
+}
+
+#logo {
+    position: absolute;
+    background-image: url("../images/logo-lnd.png") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 376px;
+    height: 109px;
+    top: 242px;
+    left: 110px;
+    z-index: 9999;
+}
+
+#arrow {
+    position: absolute;
+    background-image: url("../images/arrrow.png");
+    width: 47px;
+    height: 24px;
+    left: 50%;
+    margin-left: -23.5px;
+    top: 547.2px;
+}
+
+
+/*#astronaut {*/
+/*position: relative;*/
+/*background-image: url("../images/bg.jpg");*/
+/*background-repeat: no-repeat;*/
+/*background-size: contain;*/
+/*margin-left: 30px;*/
+/*margin-top: -20px;*/
+/*width: 100%;*/
+/*height: 500px;*/
+/*right: 0px;*/
+/*top: 0%;*/
+/*}*/
+
+#left {
+    position: absolute;
+    width: 55%;
+    height: 32%;
+    bottom: 17.3%;
+    left: 4%;
+    background-size: contain;
+}
+
+#right {
+    position: absolute;
+    text-align: center;
+    width: 25%;
+    float: left;
+
+    margin-bottom: -2.5%;
+    right: 4%;
+    height: 280px;
+    bottom: 23%;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+
+}
+
+
+#footer {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0px;
+    border-top: 2px solid #ffffff;
+}
+
+form {
+
+
+}
+form input[type="submit"] {
+    width: 136px;
+    height: 41px;
+    background-color: #ffffff;
+    border-radius: 300px;
+    border-style:none;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: thinRoboto ;
+
+}
+form input[type="button"] {
+    width: 136px;
+    height: 41px;
+    background-color: #ffffff;
+    border-radius: 300px;
+    border-style:none;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: thinRoboto ;
+
+}
+
+form input[type="text"] {
+    color: #ffffff;
+    padding-left: 5px;
+    width: 80%;
+    /*margin-left: 20px;*/
+    background-color: #222222;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    height: 26px;
+    border-radius: 2px;
+
+}
+
+@font-face {
+    font-family: lightRoboto;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: thinRoboto;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+
+
+.ti-about {
+    font-family: thinRoboto;
+    font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.p-subscribe {
+    font-family: thinRoboto;
+    font-size:36px;
+    font-weight:100;
+    margin-bottom: 0px;
+}
+.p-for {
+    font-family: thinRoboto;
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.p-when {
+    font-family: thinRoboto;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+
+.p-article {
+    font-family: lightRoboto;
+    font-size: 19px;
+}
+
+.social-networks {
+    margin-top: 30px;
+    list-style-type: none;
+    width: 400px;
+    height: 60px;
+    padding: 0px;
+}
+
+.social-networks > li {
+    display: inline;
+    width: 30px;
+    height: 60px;
+    float: left;
+    margin-right: 20px;
+}
+
+
+.bottom-logo {
+    float: left;
+    margin-top: 21px;
+    color: #959595;
+    font-family: Arial;
+    font-size: 14px;
+    margin-left: 4%;
+}
+
+.ul-mobile-list {
+    position: absolute;
+    display: block;
+    list-style-type: none;
+    margin-top: 12px;
+    width: 80px;
+    height: 50px;
+    right: 4%;
+    padding: 0px;
+
+}
+
+.ul-mobile-list > li {
+    float: left;
+}
+
+.android {
+    background: url(../images/icons_android.png) no-repeat;
+    height: 40px;
+    width: 40px;
+}
+
+.apple {
+    background: url(../images/icons_apple.png) no-repeat;
+    height: 40px;
+    width: 40px;
+}
+
+input:focus {
+    outline: 0px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #ffffff;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #ffffff;
+    opacity:  1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #ffffff;
+    opacity:  1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #ffffff;
+}
+
+
+a {
+    height: 40px;
+    display: block;
+}
+a.facebook {
+    background: url('../images/facebook-lnd.png') no-repeat ;
+    width: 41px;
+    height: 42px;
+}
+
+a.twitter {
+    background: url('../images/twitter-lnd.png') no-repeat;
+    width: 41px;
+    height: 42px;
+}
+
+a.vk {
+    background: url('../images/vk-lnd.png') no-repeat;
+    width: 41px;
+    height: 42px;
+}
+
+a.instagram {
+    background: url('../images/instagram-lnd.png') no-repeat;
+    width: 41px;
+    height: 42px;
+}
+
+a.google {
+    background: url('../images/google-lnd.png') no-repeat;
+    width: 41px;
+    height: 42px;
+}
+
+a.ok {
+    background: url('../images/ok-lnd.png') no-repeat;
+    width: 41px;
+    height: 42px;
+}
+/*news style*/
+
+
+.text-intro {
+    position:absolute;
+    width: 500px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 14pt;
+    z-index: 9007;
+    float: left;
+    left: 20%;
+    top: 60%;
+}
+
+.subscribe {
+    position:absolute;
+    text-align: center;
+    color: #ffffff;
+
+    font-weight: 100;
+    z-index:9007;
+
+    border-radius: 2px;
+    border-color: #ffffff;
+    border-style:solid;
+    border-width: 1px;
+
+    width: 267px;
+    height: 297px;
+    float: left;
+    right: 25%;
+    top: 70%;
+}
+
+#success {
+    background: green;
+    width: 400px;
+    height: 200px;
+}
+
+#fail {
+    position: relative;
+    background-color:  white;
+    width: 400px;
+    height: 200px;
+    z-index: 9999;
+    margin-left: 200px;
+}

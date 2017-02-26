@@ -1,0 +1,1206 @@
+2014/12/10 12:35:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/News.php (222)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (108)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:35:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/News.php (222)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (108)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:35:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `news` `t` WHERE 1=0 OR t.id IN (:ids) ORDER BY t.create_time DESC. Bound with :ids='4,89,93,157,159,163,164'
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (108)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid. Bound with :userid=NULL
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RWebUser.php (43)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RightsFilter.php (43)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RController.php (36)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT name,t1.type,description,t1.bizrule,t1.data,weight
+					FROM AuthItem t1
+					LEFT JOIN Rights t2 ON name=itemname
+					ORDER BY t1.type DESC, weight ASC
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RDbAuthManager.php (169)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RDbAuthManager.php (65)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RWebUser.php (43)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name. Bound with :name='News.*'
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RWebUser.php (43)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RightsFilter.php (43)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RController.php (36)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid. Bound with :userid=NULL
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RWebUser.php (43)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RightsFilter.php (49)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RController.php (36)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name. Bound with :name='News.Blog'
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RWebUser.php (43)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RightsFilter.php (49)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RController.php (36)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `bloger`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/Bloger.php (111)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (178)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RController.php (36)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `bloger`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/Bloger.php (111)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (178)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RController.php (36)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `bloger` `t` WHERE `t`.`slug`=:yp0 LIMIT 1. Bound with :yp0='krokus'
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (178)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RController.php (36)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/NKHelper.php (123)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (183)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RController.php (36)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/NKHelper.php (123)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (183)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RController.php (36)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `news` `t`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/NKHelper.php (134)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (183)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RController.php (36)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `news` `t` LIMIT 9 OFFSET 36
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/NKHelper.php (134)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (183)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RController.php (36)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `news` `t` WHERE author_id=:userId AND status=1 AND blog=1. Bound with :userId='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/NKHelper.php (135)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (183)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RController.php (36)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `news` `t` WHERE author_id=:userId AND status=1 AND blog=1 LIMIT 9. Bound with :userId='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/NKHelper.php (135)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (183)
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/rights/components/RController.php (36)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usr_users`
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_blog_alien.php (13)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (6)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usr_users`
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_blog_alien.php (13)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (6)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usr_profiles`
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_blog_alien.php (13)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (6)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usr_profiles`
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_blog_alien.php (13)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (6)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user_bloger_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_blog_alien.php (13)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (6)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user_bloger_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_blog_alien.php (13)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (6)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`created` AS `t1_c7`, `user`.`lastvisit_at` AS `t1_c8`, `user`.`api_login_at` AS `t1_c13`, `user`.`superuser` AS `t1_c5`, `user`.`status` AS `t1_c6`, `user`.`id_fb` AS `t1_c9`, `user`.`token` AS `t1_c11`, `profile`.`user_id` AS `t2_c0`, `profile`.`first_name_en` AS `t2_c1`, `profile`.`last_name_en` AS `t2_c2`, `profile`.`first_name_ru` AS `t2_c3`, `profile`.`first_name_uk` AS `t2_c4`, `profile`.`last_name_ru` AS `t2_c5`, `profile`.`last_name_uk` AS `t2_c6`, `profile`.`avatar_source` AS `t2_c7`, `profile`.`sex` AS `t2_c8`, `profile`.`phone` AS `t2_c9`, `profile`.`city` AS `t2_c10`, `profile`.`day` AS `t2_c11`, `profile`.`month` AS `t2_c12`, `profile`.`year` AS `t2_c13` FROM `usr_users` `user`  INNER JOIN `user_bloger_assignment` `readers_user` ON (`readers_user`.`bloger_id`=:ypl0) AND (`user`.`id`=`readers_user`.`user_id`) LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`) . Bound with :ypl0='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_blog_alien.php (13)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (6)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`created` AS `t1_c7`, `user`.`lastvisit_at` AS `t1_c8`, `user`.`api_login_at` AS `t1_c13`, `user`.`superuser` AS `t1_c5`, `user`.`status` AS `t1_c6`, `user`.`id_fb` AS `t1_c9`, `user`.`token` AS `t1_c11`, `profile`.`user_id` AS `t2_c0`, `profile`.`first_name_en` AS `t2_c1`, `profile`.`last_name_en` AS `t2_c2`, `profile`.`first_name_ru` AS `t2_c3`, `profile`.`first_name_uk` AS `t2_c4`, `profile`.`last_name_ru` AS `t2_c5`, `profile`.`last_name_uk` AS `t2_c6`, `profile`.`avatar_source` AS `t2_c7`, `profile`.`sex` AS `t2_c8`, `profile`.`phone` AS `t2_c9`, `profile`.`city` AS `t2_c10`, `profile`.`day` AS `t2_c11`, `profile`.`month` AS `t2_c12`, `profile`.`year` AS `t2_c13` FROM `usr_users` `user`  LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`)  WHERE (`user`.`id`=:ypl0). Bound with :ypl0='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_blog_alien.php (23)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (6)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user_news_bookmark`
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (13)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user_news_bookmark`
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (13)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`created` AS `t1_c7`, `user`.`lastvisit_at` AS `t1_c8`, `user`.`api_login_at` AS `t1_c13`, `user`.`superuser` AS `t1_c5`, `user`.`status` AS `t1_c6`, `user`.`id_fb` AS `t1_c9`, `user`.`token` AS `t1_c11`, `profile`.`user_id` AS `t2_c0`, `profile`.`first_name_en` AS `t2_c1`, `profile`.`last_name_en` AS `t2_c2`, `profile`.`first_name_ru` AS `t2_c3`, `profile`.`first_name_uk` AS `t2_c4`, `profile`.`last_name_ru` AS `t2_c5`, `profile`.`last_name_uk` AS `t2_c6`, `profile`.`avatar_source` AS `t2_c7`, `profile`.`sex` AS `t2_c8`, `profile`.`phone` AS `t2_c9`, `profile`.`city` AS `t2_c10`, `profile`.`day` AS `t2_c11`, `profile`.`month` AS `t2_c12`, `profile`.`year` AS `t2_c13` FROM `usr_users` `user`  INNER JOIN `user_news_bookmark` `bookmarkers_user` ON (`bookmarkers_user`.`news_id`=:ypl0) AND (`user`.`id`=`bookmarkers_user`.`user_id`) LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`) . Bound with :ypl0='8'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (13)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`created` AS `t1_c7`, `user`.`lastvisit_at` AS `t1_c8`, `user`.`api_login_at` AS `t1_c13`, `user`.`superuser` AS `t1_c5`, `user`.`status` AS `t1_c6`, `user`.`id_fb` AS `t1_c9`, `user`.`token` AS `t1_c11`, `profile`.`user_id` AS `t2_c0`, `profile`.`first_name_en` AS `t2_c1`, `profile`.`last_name_en` AS `t2_c2`, `profile`.`first_name_ru` AS `t2_c3`, `profile`.`first_name_uk` AS `t2_c4`, `profile`.`last_name_ru` AS `t2_c5`, `profile`.`last_name_uk` AS `t2_c6`, `profile`.`avatar_source` AS `t2_c7`, `profile`.`sex` AS `t2_c8`, `profile`.`phone` AS `t2_c9`, `profile`.`city` AS `t2_c10`, `profile`.`day` AS `t2_c11`, `profile`.`month` AS `t2_c12`, `profile`.`year` AS `t2_c13` FROM `usr_users` `user`  LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`)  WHERE (`user`.`id`=:ypl0). Bound with :ypl0='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (54)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `bloger`.`user_id` AS `t1_c0`, `bloger`.`pen_name_en` AS `t1_c1`, `bloger`.`pen_name_ru` AS `t1_c2`, `bloger`.`pen_name_uk` AS `t1_c3`, `bloger`.`slug` AS `t1_c4`, `bloger`.`phone` AS `t1_c5`, `bloger`.`description_en` AS `t1_c6`, `bloger`.`description_ru` AS `t1_c7`, `bloger`.`description_uk` AS `t1_c8`, `bloger`.`tried` AS `t1_c9`, `bloger`.`journalist` AS `t1_c10`, `bloger`.`status` AS `t1_c11` FROM `bloger` `bloger`  WHERE (`bloger`.`user_id`=:ypl0). Bound with :ypl0='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (54)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`created` AS `t1_c7`, `user`.`lastvisit_at` AS `t1_c8`, `user`.`api_login_at` AS `t1_c13`, `user`.`superuser` AS `t1_c5`, `user`.`status` AS `t1_c6`, `user`.`id_fb` AS `t1_c9`, `user`.`token` AS `t1_c11`, `profile`.`user_id` AS `t2_c0`, `profile`.`first_name_en` AS `t2_c1`, `profile`.`last_name_en` AS `t2_c2`, `profile`.`first_name_ru` AS `t2_c3`, `profile`.`first_name_uk` AS `t2_c4`, `profile`.`last_name_ru` AS `t2_c5`, `profile`.`last_name_uk` AS `t2_c6`, `profile`.`avatar_source` AS `t2_c7`, `profile`.`sex` AS `t2_c8`, `profile`.`phone` AS `t2_c9`, `profile`.`city` AS `t2_c10`, `profile`.`day` AS `t2_c11`, `profile`.`month` AS `t2_c12`, `profile`.`year` AS `t2_c13` FROM `usr_users` `user`  INNER JOIN `user_news_bookmark` `bookmarkers_user` ON (`bookmarkers_user`.`news_id`=:ypl0) AND (`user`.`id`=`bookmarkers_user`.`user_id`) LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`) . Bound with :ypl0='90'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (13)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`created` AS `t1_c7`, `user`.`lastvisit_at` AS `t1_c8`, `user`.`api_login_at` AS `t1_c13`, `user`.`superuser` AS `t1_c5`, `user`.`status` AS `t1_c6`, `user`.`id_fb` AS `t1_c9`, `user`.`token` AS `t1_c11`, `profile`.`user_id` AS `t2_c0`, `profile`.`first_name_en` AS `t2_c1`, `profile`.`last_name_en` AS `t2_c2`, `profile`.`first_name_ru` AS `t2_c3`, `profile`.`first_name_uk` AS `t2_c4`, `profile`.`last_name_ru` AS `t2_c5`, `profile`.`last_name_uk` AS `t2_c6`, `profile`.`avatar_source` AS `t2_c7`, `profile`.`sex` AS `t2_c8`, `profile`.`phone` AS `t2_c9`, `profile`.`city` AS `t2_c10`, `profile`.`day` AS `t2_c11`, `profile`.`month` AS `t2_c12`, `profile`.`year` AS `t2_c13` FROM `usr_users` `user`  LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`)  WHERE (`user`.`id`=:ypl0). Bound with :ypl0='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (54)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `bloger`.`user_id` AS `t1_c0`, `bloger`.`pen_name_en` AS `t1_c1`, `bloger`.`pen_name_ru` AS `t1_c2`, `bloger`.`pen_name_uk` AS `t1_c3`, `bloger`.`slug` AS `t1_c4`, `bloger`.`phone` AS `t1_c5`, `bloger`.`description_en` AS `t1_c6`, `bloger`.`description_ru` AS `t1_c7`, `bloger`.`description_uk` AS `t1_c8`, `bloger`.`tried` AS `t1_c9`, `bloger`.`journalist` AS `t1_c10`, `bloger`.`status` AS `t1_c11` FROM `bloger` `bloger`  WHERE (`bloger`.`user_id`=:ypl0). Bound with :ypl0='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (54)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`created` AS `t1_c7`, `user`.`lastvisit_at` AS `t1_c8`, `user`.`api_login_at` AS `t1_c13`, `user`.`superuser` AS `t1_c5`, `user`.`status` AS `t1_c6`, `user`.`id_fb` AS `t1_c9`, `user`.`token` AS `t1_c11`, `profile`.`user_id` AS `t2_c0`, `profile`.`first_name_en` AS `t2_c1`, `profile`.`last_name_en` AS `t2_c2`, `profile`.`first_name_ru` AS `t2_c3`, `profile`.`first_name_uk` AS `t2_c4`, `profile`.`last_name_ru` AS `t2_c5`, `profile`.`last_name_uk` AS `t2_c6`, `profile`.`avatar_source` AS `t2_c7`, `profile`.`sex` AS `t2_c8`, `profile`.`phone` AS `t2_c9`, `profile`.`city` AS `t2_c10`, `profile`.`day` AS `t2_c11`, `profile`.`month` AS `t2_c12`, `profile`.`year` AS `t2_c13` FROM `usr_users` `user`  INNER JOIN `user_news_bookmark` `bookmarkers_user` ON (`bookmarkers_user`.`news_id`=:ypl0) AND (`user`.`id`=`bookmarkers_user`.`user_id`) LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`) . Bound with :ypl0='106'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (13)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`created` AS `t1_c7`, `user`.`lastvisit_at` AS `t1_c8`, `user`.`api_login_at` AS `t1_c13`, `user`.`superuser` AS `t1_c5`, `user`.`status` AS `t1_c6`, `user`.`id_fb` AS `t1_c9`, `user`.`token` AS `t1_c11`, `profile`.`user_id` AS `t2_c0`, `profile`.`first_name_en` AS `t2_c1`, `profile`.`last_name_en` AS `t2_c2`, `profile`.`first_name_ru` AS `t2_c3`, `profile`.`first_name_uk` AS `t2_c4`, `profile`.`last_name_ru` AS `t2_c5`, `profile`.`last_name_uk` AS `t2_c6`, `profile`.`avatar_source` AS `t2_c7`, `profile`.`sex` AS `t2_c8`, `profile`.`phone` AS `t2_c9`, `profile`.`city` AS `t2_c10`, `profile`.`day` AS `t2_c11`, `profile`.`month` AS `t2_c12`, `profile`.`year` AS `t2_c13` FROM `usr_users` `user`  LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`)  WHERE (`user`.`id`=:ypl0). Bound with :ypl0='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (54)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `bloger`.`user_id` AS `t1_c0`, `bloger`.`pen_name_en` AS `t1_c1`, `bloger`.`pen_name_ru` AS `t1_c2`, `bloger`.`pen_name_uk` AS `t1_c3`, `bloger`.`slug` AS `t1_c4`, `bloger`.`phone` AS `t1_c5`, `bloger`.`description_en` AS `t1_c6`, `bloger`.`description_ru` AS `t1_c7`, `bloger`.`description_uk` AS `t1_c8`, `bloger`.`tried` AS `t1_c9`, `bloger`.`journalist` AS `t1_c10`, `bloger`.`status` AS `t1_c11` FROM `bloger` `bloger`  WHERE (`bloger`.`user_id`=:ypl0). Bound with :ypl0='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (54)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`created` AS `t1_c7`, `user`.`lastvisit_at` AS `t1_c8`, `user`.`api_login_at` AS `t1_c13`, `user`.`superuser` AS `t1_c5`, `user`.`status` AS `t1_c6`, `user`.`id_fb` AS `t1_c9`, `user`.`token` AS `t1_c11`, `profile`.`user_id` AS `t2_c0`, `profile`.`first_name_en` AS `t2_c1`, `profile`.`last_name_en` AS `t2_c2`, `profile`.`first_name_ru` AS `t2_c3`, `profile`.`first_name_uk` AS `t2_c4`, `profile`.`last_name_ru` AS `t2_c5`, `profile`.`last_name_uk` AS `t2_c6`, `profile`.`avatar_source` AS `t2_c7`, `profile`.`sex` AS `t2_c8`, `profile`.`phone` AS `t2_c9`, `profile`.`city` AS `t2_c10`, `profile`.`day` AS `t2_c11`, `profile`.`month` AS `t2_c12`, `profile`.`year` AS `t2_c13` FROM `usr_users` `user`  INNER JOIN `user_news_bookmark` `bookmarkers_user` ON (`bookmarkers_user`.`news_id`=:ypl0) AND (`user`.`id`=`bookmarkers_user`.`user_id`) LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`) . Bound with :ypl0='107'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (13)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`created` AS `t1_c7`, `user`.`lastvisit_at` AS `t1_c8`, `user`.`api_login_at` AS `t1_c13`, `user`.`superuser` AS `t1_c5`, `user`.`status` AS `t1_c6`, `user`.`id_fb` AS `t1_c9`, `user`.`token` AS `t1_c11`, `profile`.`user_id` AS `t2_c0`, `profile`.`first_name_en` AS `t2_c1`, `profile`.`last_name_en` AS `t2_c2`, `profile`.`first_name_ru` AS `t2_c3`, `profile`.`first_name_uk` AS `t2_c4`, `profile`.`last_name_ru` AS `t2_c5`, `profile`.`last_name_uk` AS `t2_c6`, `profile`.`avatar_source` AS `t2_c7`, `profile`.`sex` AS `t2_c8`, `profile`.`phone` AS `t2_c9`, `profile`.`city` AS `t2_c10`, `profile`.`day` AS `t2_c11`, `profile`.`month` AS `t2_c12`, `profile`.`year` AS `t2_c13` FROM `usr_users` `user`  LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`)  WHERE (`user`.`id`=:ypl0). Bound with :ypl0='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (54)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `bloger`.`user_id` AS `t1_c0`, `bloger`.`pen_name_en` AS `t1_c1`, `bloger`.`pen_name_ru` AS `t1_c2`, `bloger`.`pen_name_uk` AS `t1_c3`, `bloger`.`slug` AS `t1_c4`, `bloger`.`phone` AS `t1_c5`, `bloger`.`description_en` AS `t1_c6`, `bloger`.`description_ru` AS `t1_c7`, `bloger`.`description_uk` AS `t1_c8`, `bloger`.`tried` AS `t1_c9`, `bloger`.`journalist` AS `t1_c10`, `bloger`.`status` AS `t1_c11` FROM `bloger` `bloger`  WHERE (`bloger`.`user_id`=:ypl0). Bound with :ypl0='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (54)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`created` AS `t1_c7`, `user`.`lastvisit_at` AS `t1_c8`, `user`.`api_login_at` AS `t1_c13`, `user`.`superuser` AS `t1_c5`, `user`.`status` AS `t1_c6`, `user`.`id_fb` AS `t1_c9`, `user`.`token` AS `t1_c11`, `profile`.`user_id` AS `t2_c0`, `profile`.`first_name_en` AS `t2_c1`, `profile`.`last_name_en` AS `t2_c2`, `profile`.`first_name_ru` AS `t2_c3`, `profile`.`first_name_uk` AS `t2_c4`, `profile`.`last_name_ru` AS `t2_c5`, `profile`.`last_name_uk` AS `t2_c6`, `profile`.`avatar_source` AS `t2_c7`, `profile`.`sex` AS `t2_c8`, `profile`.`phone` AS `t2_c9`, `profile`.`city` AS `t2_c10`, `profile`.`day` AS `t2_c11`, `profile`.`month` AS `t2_c12`, `profile`.`year` AS `t2_c13` FROM `usr_users` `user`  INNER JOIN `user_news_bookmark` `bookmarkers_user` ON (`bookmarkers_user`.`news_id`=:ypl0) AND (`user`.`id`=`bookmarkers_user`.`user_id`) LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`) . Bound with :ypl0='122'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (13)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`created` AS `t1_c7`, `user`.`lastvisit_at` AS `t1_c8`, `user`.`api_login_at` AS `t1_c13`, `user`.`superuser` AS `t1_c5`, `user`.`status` AS `t1_c6`, `user`.`id_fb` AS `t1_c9`, `user`.`token` AS `t1_c11`, `profile`.`user_id` AS `t2_c0`, `profile`.`first_name_en` AS `t2_c1`, `profile`.`last_name_en` AS `t2_c2`, `profile`.`first_name_ru` AS `t2_c3`, `profile`.`first_name_uk` AS `t2_c4`, `profile`.`last_name_ru` AS `t2_c5`, `profile`.`last_name_uk` AS `t2_c6`, `profile`.`avatar_source` AS `t2_c7`, `profile`.`sex` AS `t2_c8`, `profile`.`phone` AS `t2_c9`, `profile`.`city` AS `t2_c10`, `profile`.`day` AS `t2_c11`, `profile`.`month` AS `t2_c12`, `profile`.`year` AS `t2_c13` FROM `usr_users` `user`  LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`)  WHERE (`user`.`id`=:ypl0). Bound with :ypl0='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (54)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `bloger`.`user_id` AS `t1_c0`, `bloger`.`pen_name_en` AS `t1_c1`, `bloger`.`pen_name_ru` AS `t1_c2`, `bloger`.`pen_name_uk` AS `t1_c3`, `bloger`.`slug` AS `t1_c4`, `bloger`.`phone` AS `t1_c5`, `bloger`.`description_en` AS `t1_c6`, `bloger`.`description_ru` AS `t1_c7`, `bloger`.`description_uk` AS `t1_c8`, `bloger`.`tried` AS `t1_c9`, `bloger`.`journalist` AS `t1_c10`, `bloger`.`status` AS `t1_c11` FROM `bloger` `bloger`  WHERE (`bloger`.`user_id`=:ypl0). Bound with :ypl0='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_view.php (54)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/_loop.php (19)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/news/index.php (17)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `id`
+FROM `city`
+ORDER BY `name_uk`
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Temperature.php (11)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (214)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (90)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `city`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/City.php (24)
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Temperature.php (29)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (214)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `city`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/City.php (24)
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Temperature.php (29)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (214)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `city` `t` WHERE `t`.`id`=27 ORDER BY name_uk ASC LIMIT 1
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Temperature.php (29)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (214)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (90)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `city` `t` ORDER BY name_uk ASC
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/WeatherMenu.php (18)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (223)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (90)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `id`
+FROM `widget_currency_element`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/WidgetCurrencyElement.php (128)
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Currency.php (7)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (235)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `widget_currency_element`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/WidgetCurrencyElement.php (22)
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Currency.php (8)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (235)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `widget_currency_element`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/WidgetCurrencyElement.php (22)
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Currency.php (8)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (235)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `widget_currency_element` `t` WHERE `t`.`id`=1 LIMIT 1
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Currency.php (8)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (235)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (90)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `id`
+FROM `widget_currency_element`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/WidgetCurrencyElement.php (128)
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Currency.php (7)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (242)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `widget_currency_element` `t` WHERE `t`.`id`=1 LIMIT 1
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Currency.php (8)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (242)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (90)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `id`
+FROM `widget_currency_element`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/WidgetCurrencyElement.php (128)
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/CurSale.php (7)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (244)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `widget_currency_element` `t` WHERE `t`.`id`=1 LIMIT 1
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/CurSale.php (8)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (244)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (90)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `widget_currency_element` `t`
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/CurrencyMenu.php (13)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (248)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (90)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `id`
+FROM `city`
+ORDER BY `name_uk`
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Traffic.php (11)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (257)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (90)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `city` `t` WHERE `t`.`id`=27 ORDER BY name_uk ASC LIMIT 1
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Traffic.php (23)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (257)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (90)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `city` `t` WHERE (status = 1) AND (LENGTH(traffic) > 0) ORDER BY name_uk ASC
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/TrafficMenu.php (12)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (266)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/NewsController.php (90)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `category`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/Category.php (36)
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/ActiveMenu.php (25)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (191)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `category`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/Category.php (36)
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/ActiveMenu.php (25)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (191)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `category` `t` ORDER BY `showorder` ASC
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/ActiveMenu.php (25)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (191)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (341)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `id`
+FROM `city`
+ORDER BY `name_uk`
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Temperature.php (11)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (208)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (341)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `city` `t` WHERE `t`.`id`=27 ORDER BY name_uk ASC LIMIT 1
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Temperature.php (29)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (208)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (341)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `city` `t` ORDER BY name_uk ASC
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/WeatherMenu.php (18)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (217)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (341)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `id`
+FROM `widget_currency_element`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/WidgetCurrencyElement.php (128)
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Currency.php (7)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (229)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `widget_currency_element` `t` WHERE `t`.`id`=1 LIMIT 1
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Currency.php (8)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (229)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (341)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `id`
+FROM `widget_currency_element`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/WidgetCurrencyElement.php (128)
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Currency.php (7)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (236)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `widget_currency_element` `t` WHERE `t`.`id`=1 LIMIT 1
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Currency.php (8)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (341)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `id`
+FROM `widget_currency_element`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/WidgetCurrencyElement.php (128)
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/CurSale.php (7)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (238)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `widget_currency_element` `t` WHERE `t`.`id`=1 LIMIT 1
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/CurSale.php (8)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (238)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (341)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `widget_currency_element` `t`
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/CurrencyMenu.php (13)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (242)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (341)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `id`
+FROM `city`
+ORDER BY `name_uk`
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Traffic.php (11)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (251)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (341)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `city` `t` WHERE `t`.`id`=27 ORDER BY name_uk ASC LIMIT 1
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/Traffic.php (23)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (251)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (341)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `city` `t` WHERE (status = 1) AND (LENGTH(traffic) > 0) ORDER BY name_uk ASC
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/TrafficMenu.php (12)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (260)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (341)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `category` `t` ORDER BY `showorder` ASC
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/widgets/ActiveMenu.php (25)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/main.php (315)
+in /var/www/nk2mAk/nk2.applemint.net/protected/views/layouts/column2.php (341)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Executing SQL: CREATE TABLE IF NOT EXISTS `settings` (
+		  `id` int(11) NOT NULL auto_increment,
+		  `category` varchar(64) NOT NULL default 'system',
+		  `key` varchar(255) NOT NULL,
+		  `value` text NOT NULL,
+		  PRIMARY KEY  (`id`),
+		  KEY `category_key` (`category`,`key`)
+		) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ; 
+in /var/www/nk2mAk/nk2.applemint.net/protected/extensions/CmsSettings.php (527)
+in /var/www/nk2mAk/nk2.applemint.net/protected/extensions/CmsSettings.php (43)
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/Aii.php (22)
+2014/12/10 12:37:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `key`, `value` FROM settings WHERE category=:cat. Bound with :cat='uk'
+in /var/www/nk2mAk/nk2.applemint.net/protected/extensions/CmsSettings.php (258)
+in /var/www/nk2mAk/nk2.applemint.net/protected/extensions/CmsSettings.php (96)
+in /var/www/nk2mAk/nk2.applemint.net/protected/components/Aii.php (22)
+2014/12/10 12:37:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/News.php (222)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (108)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:37:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/News.php (222)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (108)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:37:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `news` `t` WHERE 1=0 OR t.id IN (Array) ORDER BY t.create_time DESC
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (108)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:37:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/News.php (222)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (108)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:37:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/News.php (222)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (108)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:37:28 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `news` `t` WHERE 1=0 OR t.id IN (4,89,93,157,159,163,164) ORDER BY t.create_time DESC
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (108)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usr_users`
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/user/models/User.php (39)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (444)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usr_users`
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/user/models/User.php (39)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (444)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usr_profiles`
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (444)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usr_profiles`
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (444)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:58 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t0_c0`, `user`.`username` AS `t0_c1`, `user`.`email` AS `t0_c3`, `user`.`created` AS `t0_c7`, `user`.`lastvisit_at` AS `t0_c8`, `user`.`api_login_at` AS `t0_c13`, `user`.`superuser` AS `t0_c5`, `user`.`status` AS `t0_c6`, `user`.`id_fb` AS `t0_c9`, `user`.`token` AS `t0_c11`, `user`.`id` AS `t0_c0`, `user`.`username` AS `t0_c1`, `user`.`password` AS `t0_c2`, `user`.`email` AS `t0_c3`, `user`.`activkey` AS `t0_c4`, `user`.`created` AS `t0_c7`, `user`.`lastvisit_at` AS `t0_c8`, `user`.`superuser` AS `t0_c5`, `user`.`status` AS `t0_c6`, `user`.`id_fb` AS `t0_c9`, `user`.`token` AS `t0_c11`, `profile`.`user_id` AS `t1_c0`, `profile`.`first_name_en` AS `t1_c1`, `profile`.`last_name_en` AS `t1_c2`, `profile`.`first_name_ru` AS `t1_c3`, `profile`.`first_name_uk` AS `t1_c4`, `profile`.`last_name_ru` AS `t1_c5`, `profile`.`last_name_uk` AS `t1_c6`, `profile`.`avatar_source` AS `t1_c7`, `profile`.`sex` AS `t1_c8`, `profile`.`phone` AS `t1_c9`, `profile`.`city` AS `t1_c10`, `profile`.`day` AS `t1_c11`, `profile`.`month` AS `t1_c12`, `profile`.`year` AS `t1_c13` FROM `usr_users` `user`  LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`)  WHERE (`user`.`username`=:yp0). Bound with :yp0='admin'
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (444)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:58 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `usr_users` SET `id`=:yp0, `username`=:yp1, `email`=:yp2, `created`=:yp3, `lastvisit_at`=:yp4, `api_login_at`=:yp5, `superuser`=:yp6, `id_fb`=:yp7, `token`=:yp8, `password`=:yp9, `activkey`=:yp10, `status`=:yp11 WHERE `usr_users`.`id`=1. Bound with :yp0=1, :yp1='admin', :yp2='t.osadchyi@seductive.com.ua', :yp3='2013-07-10 15:03:44', :yp4='2014-12-06 18:54:37', :yp5='2014-12-10 12:41:58', :yp6=1, :yp7='', :yp8='81102e1daaf9819788369fabd0511d84', :yp9='ccd8f1da92463a16b7f45179b9c56946', :yp10='cb80c68c43660a8058e9e624ec65e241', :yp11=1
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (462)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `widget_currency_element`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/WidgetCurrencyElement.php (22)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (743)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `widget_currency_element`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/WidgetCurrencyElement.php (22)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (743)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `widget_currency_element` `t`
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (743)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `category`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/Category.php (36)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (253)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `category`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/Category.php (36)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (253)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `category` `t`
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (253)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usr_users`
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/user/models/User.php (39)
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usr_users`
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/user/models/User.php (39)
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usr_profiles`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usr_profiles`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `category`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `category`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `bloger`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `bloger`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user_category_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user_category_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user_bloger_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user_bloger_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user_news_bookmark`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user_news_bookmark`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:41:59 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t0_c0`, `user`.`username` AS `t0_c1`, `user`.`email` AS `t0_c3`, `user`.`created` AS `t0_c7`, `user`.`lastvisit_at` AS `t0_c8`, `user`.`api_login_at` AS `t0_c13`, `user`.`superuser` AS `t0_c5`, `user`.`status` AS `t0_c6`, `user`.`id_fb` AS `t0_c9`, `user`.`token` AS `t0_c11`, `profile`.`user_id` AS `t1_c0`, `profile`.`first_name_en` AS `t1_c1`, `profile`.`last_name_en` AS `t1_c2`, `profile`.`first_name_ru` AS `t1_c3`, `profile`.`first_name_uk` AS `t1_c4`, `profile`.`last_name_ru` AS `t1_c5`, `profile`.`last_name_uk` AS `t1_c6`, `profile`.`avatar_source` AS `t1_c7`, `profile`.`sex` AS `t1_c8`, `profile`.`phone` AS `t1_c9`, `profile`.`city` AS `t1_c10`, `profile`.`day` AS `t1_c11`, `profile`.`month` AS `t1_c12`, `profile`.`year` AS `t1_c13`, `categories`.`id` AS `t2_c0`, `categories`.`name_en` AS `t2_c1`, `categories`.`name_ru` AS `t2_c2`, `categories`.`name_uk` AS `t2_c3`, `categories`.`slug` AS `t2_c4`, `categories`.`media_source` AS `t2_c5`, `categories`.`showorder` AS `t2_c6`, `blogers`.`user_id` AS `t3_c0`, `blogers`.`pen_name_en` AS `t3_c1`, `blogers`.`pen_name_ru` AS `t3_c2`, `blogers`.`pen_name_uk` AS `t3_c3`, `blogers`.`slug` AS `t3_c4`, `blogers`.`phone` AS `t3_c5`, `blogers`.`description_en` AS `t3_c6`, `blogers`.`description_ru` AS `t3_c7`, `blogers`.`description_uk` AS `t3_c8`, `blogers`.`tried` AS `t3_c9`, `blogers`.`journalist` AS `t3_c10`, `blogers`.`status` AS `t3_c11`, `bookmarks`.`id` AS `t4_c0`, `bookmarks`.`ru` AS `t4_c1`, `bookmarks`.`en` AS `t4_c2`, `bookmarks`.`uk` AS `t4_c3`, `bookmarks`.`lang` AS `t4_c4`, `bookmarks`.`name_ru` AS `t4_c5`, `bookmarks`.`name_en` AS `t4_c6`, `bookmarks`.`name_uk` AS `t4_c7`, `bookmarks`.`slug` AS `t4_c8`, `bookmarks`.`author_id` AS `t4_c9`, `bookmarks`.`category_id` AS `t4_c10`, `bookmarks`.`type_id` AS `t4_c11`, `bookmarks`.`source` AS `t4_c12`, `bookmarks`.`media_source` AS `t4_c13`, `bookmarks`.`video_src` AS `t4_c14`, `bookmarks`.`preview_source` AS `t4_c15`, `bookmarks`.`teaser_ru` AS `t4_c16`, `bookmarks`.`teaser_en` AS `t4_c17`, `bookmarks`.`teaser_uk` AS `t4_c18`, `bookmarks`.`text_ru` AS `t4_c19`, `bookmarks`.`text_en` AS `t4_c20`, `bookmarks`.`text_uk` AS `t4_c21`, `bookmarks`.`fb_pub` AS `t4_c22`, `bookmarks`.`tw_pub` AS `t4_c23`, `bookmarks`.`vk_pub` AS `t4_c24`, `bookmarks`.`gp_pub` AS `t4_c25`, `bookmarks`.`create_time` AS `t4_c26`, `bookmarks`.`update_time` AS `t4_c27`, `bookmarks`.`hot` AS `t4_c28`, `bookmarks`.`blog` AS `t4_c29`, `bookmarks`.`fixed` AS `t4_c30`, `bookmarks`.`status` AS `t4_c31` FROM `usr_users` `user`  LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `user_category_assignment` `categories_categories` ON (`user`.`id`=`categories_categories`.`user_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `user_bloger_assignment` `blogers_blogers` ON (`user`.`id`=`blogers_blogers`.`user_id`) LEFT OUTER JOIN `bloger` `blogers` ON (`blogers`.`user_id`=`blogers_blogers`.`bloger_id`)  LEFT OUTER JOIN `user_news_bookmark` `bookmarks_bookmarks` ON (`user`.`id`=`bookmarks_bookmarks`.`user_id`) LEFT OUTER JOIN `news` `bookmarks` ON (`bookmarks`.`id`=`bookmarks_bookmarks`.`news_id`)  WHERE (`user`.`id`=1)
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:00 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `usr_users` SET `id`=:yp0, `username`=:yp1, `email`=:yp2, `created`=:yp3, `lastvisit_at`=:yp4, `api_login_at`=:yp5, `superuser`=:yp6, `id_fb`=:yp7, `token`=:yp8, `status`=:yp9 WHERE `usr_users`.`id`=1. Bound with :yp0=1, :yp1='admin', :yp2='t.osadchyi@seductive.com.ua', :yp3='2013-07-10 15:03:44', :yp4='2014-12-06 18:54:37', :yp5='2014-12-10 12:42:00', :yp6=1, :yp7='', :yp8='81102e1daaf9819788369fabd0511d84', :yp9=1
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (59)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (763)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:01 [trace] [system.db.CDbCommand] Querying SQL: 
+	        SELECT * FROM `city` WHERE status=1
+	    
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (689)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usr_users`
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/user/models/User.php (39)
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+2014/12/10 12:42:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usr_users`
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/user/models/User.php (39)
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+2014/12/10 12:42:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usr_profiles`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usr_profiles`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `category`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `category`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `bloger`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `bloger`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user_category_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user_category_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user_bloger_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user_bloger_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user_news_bookmark`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user_news_bookmark`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t0_c0`, `user`.`username` AS `t0_c1`, `user`.`email` AS `t0_c3`, `user`.`created` AS `t0_c7`, `user`.`lastvisit_at` AS `t0_c8`, `user`.`api_login_at` AS `t0_c13`, `user`.`superuser` AS `t0_c5`, `user`.`status` AS `t0_c6`, `user`.`id_fb` AS `t0_c9`, `user`.`token` AS `t0_c11`, `profile`.`user_id` AS `t1_c0`, `profile`.`first_name_en` AS `t1_c1`, `profile`.`last_name_en` AS `t1_c2`, `profile`.`first_name_ru` AS `t1_c3`, `profile`.`first_name_uk` AS `t1_c4`, `profile`.`last_name_ru` AS `t1_c5`, `profile`.`last_name_uk` AS `t1_c6`, `profile`.`avatar_source` AS `t1_c7`, `profile`.`sex` AS `t1_c8`, `profile`.`phone` AS `t1_c9`, `profile`.`city` AS `t1_c10`, `profile`.`day` AS `t1_c11`, `profile`.`month` AS `t1_c12`, `profile`.`year` AS `t1_c13`, `categories`.`id` AS `t2_c0`, `categories`.`name_en` AS `t2_c1`, `categories`.`name_ru` AS `t2_c2`, `categories`.`name_uk` AS `t2_c3`, `categories`.`slug` AS `t2_c4`, `categories`.`media_source` AS `t2_c5`, `categories`.`showorder` AS `t2_c6`, `blogers`.`user_id` AS `t3_c0`, `blogers`.`pen_name_en` AS `t3_c1`, `blogers`.`pen_name_ru` AS `t3_c2`, `blogers`.`pen_name_uk` AS `t3_c3`, `blogers`.`slug` AS `t3_c4`, `blogers`.`phone` AS `t3_c5`, `blogers`.`description_en` AS `t3_c6`, `blogers`.`description_ru` AS `t3_c7`, `blogers`.`description_uk` AS `t3_c8`, `blogers`.`tried` AS `t3_c9`, `blogers`.`journalist` AS `t3_c10`, `blogers`.`status` AS `t3_c11`, `bookmarks`.`id` AS `t4_c0`, `bookmarks`.`ru` AS `t4_c1`, `bookmarks`.`en` AS `t4_c2`, `bookmarks`.`uk` AS `t4_c3`, `bookmarks`.`lang` AS `t4_c4`, `bookmarks`.`name_ru` AS `t4_c5`, `bookmarks`.`name_en` AS `t4_c6`, `bookmarks`.`name_uk` AS `t4_c7`, `bookmarks`.`slug` AS `t4_c8`, `bookmarks`.`author_id` AS `t4_c9`, `bookmarks`.`category_id` AS `t4_c10`, `bookmarks`.`type_id` AS `t4_c11`, `bookmarks`.`source` AS `t4_c12`, `bookmarks`.`media_source` AS `t4_c13`, `bookmarks`.`video_src` AS `t4_c14`, `bookmarks`.`preview_source` AS `t4_c15`, `bookmarks`.`teaser_ru` AS `t4_c16`, `bookmarks`.`teaser_en` AS `t4_c17`, `bookmarks`.`teaser_uk` AS `t4_c18`, `bookmarks`.`text_ru` AS `t4_c19`, `bookmarks`.`text_en` AS `t4_c20`, `bookmarks`.`text_uk` AS `t4_c21`, `bookmarks`.`fb_pub` AS `t4_c22`, `bookmarks`.`tw_pub` AS `t4_c23`, `bookmarks`.`vk_pub` AS `t4_c24`, `bookmarks`.`gp_pub` AS `t4_c25`, `bookmarks`.`create_time` AS `t4_c26`, `bookmarks`.`update_time` AS `t4_c27`, `bookmarks`.`hot` AS `t4_c28`, `bookmarks`.`blog` AS `t4_c29`, `bookmarks`.`fixed` AS `t4_c30`, `bookmarks`.`status` AS `t4_c31` FROM `usr_users` `user`  LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `user_category_assignment` `categories_categories` ON (`user`.`id`=`categories_categories`.`user_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `user_bloger_assignment` `blogers_blogers` ON (`user`.`id`=`blogers_blogers`.`user_id`) LEFT OUTER JOIN `bloger` `blogers` ON (`blogers`.`user_id`=`blogers_blogers`.`bloger_id`)  LEFT OUTER JOIN `user_news_bookmark` `bookmarks_bookmarks` ON (`user`.`id`=`bookmarks_bookmarks`.`user_id`) LEFT OUTER JOIN `news` `bookmarks` ON (`bookmarks`.`id`=`bookmarks_bookmarks`.`news_id`)  WHERE (`user`.`id`=1)
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `usr_users` SET `id`=:yp0, `username`=:yp1, `email`=:yp2, `created`=:yp3, `lastvisit_at`=:yp4, `api_login_at`=:yp5, `superuser`=:yp6, `id_fb`=:yp7, `token`=:yp8, `status`=:yp9 WHERE `usr_users`.`id`=1. Bound with :yp0=1, :yp1='admin', :yp2='t.osadchyi@seductive.com.ua', :yp3='2013-07-10 15:03:44', :yp4='2014-12-06 18:54:37', :yp5='2014-12-10 12:42:02', :yp6=1, :yp7='', :yp8='81102e1daaf9819788369fabd0511d84', :yp9=1
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (59)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (213)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/News.php (222)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (108)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/News.php (222)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (108)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `news` `t` WHERE 1=1 ORDER BY t.create_time DESC LIMIT 5
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (108)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/News.php (222)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (108)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/News.php (222)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (108)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `news` `t` WHERE 1=0 OR t.id IN (163,164) ORDER BY t.create_time DESC
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (108)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usr_users`
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/user/models/User.php (39)
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usr_users`
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/user/models/User.php (39)
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usr_profiles`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usr_profiles`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `category`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `category`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `bloger`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `bloger`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user_category_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user_category_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user_bloger_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user_bloger_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user_news_bookmark`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user_news_bookmark`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t0_c0`, `user`.`username` AS `t0_c1`, `user`.`email` AS `t0_c3`, `user`.`created` AS `t0_c7`, `user`.`lastvisit_at` AS `t0_c8`, `user`.`api_login_at` AS `t0_c13`, `user`.`superuser` AS `t0_c5`, `user`.`status` AS `t0_c6`, `user`.`id_fb` AS `t0_c9`, `user`.`token` AS `t0_c11`, `profile`.`user_id` AS `t1_c0`, `profile`.`first_name_en` AS `t1_c1`, `profile`.`last_name_en` AS `t1_c2`, `profile`.`first_name_ru` AS `t1_c3`, `profile`.`first_name_uk` AS `t1_c4`, `profile`.`last_name_ru` AS `t1_c5`, `profile`.`last_name_uk` AS `t1_c6`, `profile`.`avatar_source` AS `t1_c7`, `profile`.`sex` AS `t1_c8`, `profile`.`phone` AS `t1_c9`, `profile`.`city` AS `t1_c10`, `profile`.`day` AS `t1_c11`, `profile`.`month` AS `t1_c12`, `profile`.`year` AS `t1_c13`, `categories`.`id` AS `t2_c0`, `categories`.`name_en` AS `t2_c1`, `categories`.`name_ru` AS `t2_c2`, `categories`.`name_uk` AS `t2_c3`, `categories`.`slug` AS `t2_c4`, `categories`.`media_source` AS `t2_c5`, `categories`.`showorder` AS `t2_c6`, `blogers`.`user_id` AS `t3_c0`, `blogers`.`pen_name_en` AS `t3_c1`, `blogers`.`pen_name_ru` AS `t3_c2`, `blogers`.`pen_name_uk` AS `t3_c3`, `blogers`.`slug` AS `t3_c4`, `blogers`.`phone` AS `t3_c5`, `blogers`.`description_en` AS `t3_c6`, `blogers`.`description_ru` AS `t3_c7`, `blogers`.`description_uk` AS `t3_c8`, `blogers`.`tried` AS `t3_c9`, `blogers`.`journalist` AS `t3_c10`, `blogers`.`status` AS `t3_c11`, `bookmarks`.`id` AS `t4_c0`, `bookmarks`.`ru` AS `t4_c1`, `bookmarks`.`en` AS `t4_c2`, `bookmarks`.`uk` AS `t4_c3`, `bookmarks`.`lang` AS `t4_c4`, `bookmarks`.`name_ru` AS `t4_c5`, `bookmarks`.`name_en` AS `t4_c6`, `bookmarks`.`name_uk` AS `t4_c7`, `bookmarks`.`slug` AS `t4_c8`, `bookmarks`.`author_id` AS `t4_c9`, `bookmarks`.`category_id` AS `t4_c10`, `bookmarks`.`type_id` AS `t4_c11`, `bookmarks`.`source` AS `t4_c12`, `bookmarks`.`media_source` AS `t4_c13`, `bookmarks`.`video_src` AS `t4_c14`, `bookmarks`.`preview_source` AS `t4_c15`, `bookmarks`.`teaser_ru` AS `t4_c16`, `bookmarks`.`teaser_en` AS `t4_c17`, `bookmarks`.`teaser_uk` AS `t4_c18`, `bookmarks`.`text_ru` AS `t4_c19`, `bookmarks`.`text_en` AS `t4_c20`, `bookmarks`.`text_uk` AS `t4_c21`, `bookmarks`.`fb_pub` AS `t4_c22`, `bookmarks`.`tw_pub` AS `t4_c23`, `bookmarks`.`vk_pub` AS `t4_c24`, `bookmarks`.`gp_pub` AS `t4_c25`, `bookmarks`.`create_time` AS `t4_c26`, `bookmarks`.`update_time` AS `t4_c27`, `bookmarks`.`hot` AS `t4_c28`, `bookmarks`.`blog` AS `t4_c29`, `bookmarks`.`fixed` AS `t4_c30`, `bookmarks`.`status` AS `t4_c31` FROM `usr_users` `user`  LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `user_category_assignment` `categories_categories` ON (`user`.`id`=`categories_categories`.`user_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `user_bloger_assignment` `blogers_blogers` ON (`user`.`id`=`blogers_blogers`.`user_id`) LEFT OUTER JOIN `bloger` `blogers` ON (`blogers`.`user_id`=`blogers_blogers`.`bloger_id`)  LEFT OUTER JOIN `user_news_bookmark` `bookmarks_bookmarks` ON (`user`.`id`=`bookmarks_bookmarks`.`user_id`) LEFT OUTER JOIN `news` `bookmarks` ON (`bookmarks`.`id`=`bookmarks_bookmarks`.`news_id`)  WHERE (`user`.`id`=1)
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `usr_users` SET `id`=:yp0, `username`=:yp1, `email`=:yp2, `created`=:yp3, `lastvisit_at`=:yp4, `api_login_at`=:yp5, `superuser`=:yp6, `id_fb`=:yp7, `token`=:yp8, `status`=:yp9 WHERE `usr_users`.`id`=1. Bound with :yp0=1, :yp1='admin', :yp2='t.osadchyi@seductive.com.ua', :yp3='2013-07-10 15:03:44', :yp4='2014-12-06 18:54:37', :yp5='2014-12-10 12:42:04', :yp6=1, :yp7='', :yp8='81102e1daaf9819788369fabd0511d84', :yp9=1
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (59)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `news` `t`
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (231)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `news` `t` WHERE `t`.`id`=163
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (232)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='3'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='4'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='7'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='8'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='9'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='10'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='12'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='14'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='40'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='41'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='42'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='43'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='45'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='47'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='48'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='49'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='62'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='63'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='74'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='75'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='76'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='88'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='89'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='90'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='92'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='93'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='94'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='95'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='96'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='97'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='98'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='99'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='106'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='107'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='108'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='109'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='110'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='112'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='113'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='114'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='115'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='116'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='117'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='118'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='119'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='120'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='121'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='122'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='124'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='157'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='158'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='159'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='160'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='163'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='164'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: SELECT user_id FROM user_news_bookmark WHERE news_id=:foreignId AND user_id=:userId. Bound with :foreignId='163', :userId='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (73)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (240)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:04 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `user_news_bookmark` (`user_id`, `news_id`) VALUES (:user_id, :news_id). Bound with :user_id='1', :news_id='163'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (55)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (241)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usr_users`
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/user/models/User.php (39)
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usr_users`
+in /var/www/nk2mAk/nk2.applemint.net/protected/modules/user/models/User.php (39)
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usr_profiles`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usr_profiles`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `category`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `category`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `bloger`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `bloger`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `news`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user_category_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user_category_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user_bloger_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user_bloger_assignment`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user_news_bookmark`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user_news_bookmark`
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t0_c0`, `user`.`username` AS `t0_c1`, `user`.`email` AS `t0_c3`, `user`.`created` AS `t0_c7`, `user`.`lastvisit_at` AS `t0_c8`, `user`.`api_login_at` AS `t0_c13`, `user`.`superuser` AS `t0_c5`, `user`.`status` AS `t0_c6`, `user`.`id_fb` AS `t0_c9`, `user`.`token` AS `t0_c11`, `profile`.`user_id` AS `t1_c0`, `profile`.`first_name_en` AS `t1_c1`, `profile`.`last_name_en` AS `t1_c2`, `profile`.`first_name_ru` AS `t1_c3`, `profile`.`first_name_uk` AS `t1_c4`, `profile`.`last_name_ru` AS `t1_c5`, `profile`.`last_name_uk` AS `t1_c6`, `profile`.`avatar_source` AS `t1_c7`, `profile`.`sex` AS `t1_c8`, `profile`.`phone` AS `t1_c9`, `profile`.`city` AS `t1_c10`, `profile`.`day` AS `t1_c11`, `profile`.`month` AS `t1_c12`, `profile`.`year` AS `t1_c13`, `categories`.`id` AS `t2_c0`, `categories`.`name_en` AS `t2_c1`, `categories`.`name_ru` AS `t2_c2`, `categories`.`name_uk` AS `t2_c3`, `categories`.`slug` AS `t2_c4`, `categories`.`media_source` AS `t2_c5`, `categories`.`showorder` AS `t2_c6`, `blogers`.`user_id` AS `t3_c0`, `blogers`.`pen_name_en` AS `t3_c1`, `blogers`.`pen_name_ru` AS `t3_c2`, `blogers`.`pen_name_uk` AS `t3_c3`, `blogers`.`slug` AS `t3_c4`, `blogers`.`phone` AS `t3_c5`, `blogers`.`description_en` AS `t3_c6`, `blogers`.`description_ru` AS `t3_c7`, `blogers`.`description_uk` AS `t3_c8`, `blogers`.`tried` AS `t3_c9`, `blogers`.`journalist` AS `t3_c10`, `blogers`.`status` AS `t3_c11`, `bookmarks`.`id` AS `t4_c0`, `bookmarks`.`ru` AS `t4_c1`, `bookmarks`.`en` AS `t4_c2`, `bookmarks`.`uk` AS `t4_c3`, `bookmarks`.`lang` AS `t4_c4`, `bookmarks`.`name_ru` AS `t4_c5`, `bookmarks`.`name_en` AS `t4_c6`, `bookmarks`.`name_uk` AS `t4_c7`, `bookmarks`.`slug` AS `t4_c8`, `bookmarks`.`author_id` AS `t4_c9`, `bookmarks`.`category_id` AS `t4_c10`, `bookmarks`.`type_id` AS `t4_c11`, `bookmarks`.`source` AS `t4_c12`, `bookmarks`.`media_source` AS `t4_c13`, `bookmarks`.`video_src` AS `t4_c14`, `bookmarks`.`preview_source` AS `t4_c15`, `bookmarks`.`teaser_ru` AS `t4_c16`, `bookmarks`.`teaser_en` AS `t4_c17`, `bookmarks`.`teaser_uk` AS `t4_c18`, `bookmarks`.`text_ru` AS `t4_c19`, `bookmarks`.`text_en` AS `t4_c20`, `bookmarks`.`text_uk` AS `t4_c21`, `bookmarks`.`fb_pub` AS `t4_c22`, `bookmarks`.`tw_pub` AS `t4_c23`, `bookmarks`.`vk_pub` AS `t4_c24`, `bookmarks`.`gp_pub` AS `t4_c25`, `bookmarks`.`create_time` AS `t4_c26`, `bookmarks`.`update_time` AS `t4_c27`, `bookmarks`.`hot` AS `t4_c28`, `bookmarks`.`blog` AS `t4_c29`, `bookmarks`.`fixed` AS `t4_c30`, `bookmarks`.`status` AS `t4_c31` FROM `usr_users` `user`  LEFT OUTER JOIN `usr_profiles` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `user_category_assignment` `categories_categories` ON (`user`.`id`=`categories_categories`.`user_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `user_bloger_assignment` `blogers_blogers` ON (`user`.`id`=`blogers_blogers`.`user_id`) LEFT OUTER JOIN `bloger` `blogers` ON (`blogers`.`user_id`=`blogers_blogers`.`bloger_id`)  LEFT OUTER JOIN `user_news_bookmark` `bookmarks_bookmarks` ON (`user`.`id`=`bookmarks_bookmarks`.`user_id`) LEFT OUTER JOIN `news` `bookmarks` ON (`bookmarks`.`id`=`bookmarks_bookmarks`.`news_id`)  WHERE (`user`.`id`=1)
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (51)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `usr_users` SET `id`=:yp0, `username`=:yp1, `email`=:yp2, `created`=:yp3, `lastvisit_at`=:yp4, `api_login_at`=:yp5, `superuser`=:yp6, `id_fb`=:yp7, `token`=:yp8, `status`=:yp9 WHERE `usr_users`.`id`=1. Bound with :yp0=1, :yp1='admin', :yp2='t.osadchyi@seductive.com.ua', :yp3='2013-07-10 15:03:44', :yp4='2014-12-06 18:54:37', :yp5='2014-12-10 12:42:12', :yp6=1, :yp7='', :yp8='81102e1daaf9819788369fabd0511d84', :yp9=1
+in /var/www/nk2mAk/nk2.applemint.net/protected/helpers/ApiHelper.php (59)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (227)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `news` `t`
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (231)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `news` `t` WHERE `t`.`id` IN (163, 164)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (232)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='3'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='4'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='7'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='8'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='9'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='10'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='12'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='14'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='40'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='41'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='42'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='43'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='45'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='47'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='48'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='49'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='62'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='63'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='74'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='75'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='76'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='88'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='89'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='90'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='92'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='93'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='94'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='95'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='96'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='97'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='98'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='99'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='106'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='107'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='108'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='109'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='110'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='112'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='113'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='114'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='115'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='116'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='117'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='118'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='119'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='120'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='121'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='122'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='124'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='157'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='158'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='159'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='160'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='163'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `user_news_bookmark` WHERE user_id=:userId AND news_id=:foreignId. Bound with :userId='1', :foreignId='164'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (64)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (236)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: SELECT user_id FROM user_news_bookmark WHERE news_id=:foreignId AND user_id=:userId. Bound with :foreignId='163', :userId='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (73)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (240)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `user_news_bookmark` (`user_id`, `news_id`) VALUES (:user_id, :news_id). Bound with :user_id='1', :news_id='163'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (55)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (241)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: SELECT user_id FROM user_news_bookmark WHERE news_id=:foreignId AND user_id=:userId. Bound with :foreignId='164', :userId='1'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (73)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (240)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
+2014/12/10 12:42:12 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `user_news_bookmark` (`user_id`, `news_id`) VALUES (:user_id, :news_id). Bound with :user_id='1', :news_id='164'
+in /var/www/nk2mAk/nk2.applemint.net/protected/models/NKActiveRecord.php (55)
+in /var/www/nk2mAk/nk2.applemint.net/protected/controllers/ApiController.php (241)
+in /var/www/nk2mAk/nk2.applemint.net/index.php (13)
